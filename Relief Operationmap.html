@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <script>
+      L_NO_TOUCH = false;
+      L_DISABLE_3D = false;
+    </script>
+
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <style>
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <style>
+      #map_fb8527b15286998fe2776a52cfac120f {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="folium-map" id="map_fb8527b15286998fe2776a52cfac120f"></div>
+  </body>
+  <script>
+    var map_fb8527b15286998fe2776a52cfac120f = L.map(
+      "map_fb8527b15286998fe2776a52cfac120f",
+      {
+        center: [15.185833, 69.112],
+        crs: L.CRS.EPSG3857,
+        zoom: 5,
+        zoomControl: true,
+        preferCanvas: false,
+      }
+    );
+
+    var tile_layer_b731c50a376c960a0d503b10a22cb91b = L.tileLayer(
+      "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      {
+        attribution:
+          'Data by \u0026copy; \u003ca href="http://openstreetmap.org"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href="http://www.openstreetmap.org/copyright"\u003eODbL\u003c/a\u003e.',
+        detectRetina: false,
+        maxNativeZoom: 18,
+        maxZoom: 18,
+        minZoom: 0,
+        noWrap: false,
+        opacity: 1,
+        subdomains: "abc",
+        tms: false,
+      }
+    ).addTo(map_fb8527b15286998fe2776a52cfac120f);
+
+    var marker_a346b6305cc4f1f9ac8a6caab49572e8 = L.marker(
+      [7.798095, 91.692677],
+      {}
+    ).addTo(map_fb8527b15286998fe2776a52cfac120f);
+
+    var icon_a5a6000a895b548adee0feec3b71a0c2 = L.AwesomeMarkers.icon({
+      extraClasses: "fa-rotate-0",
+      icon: "ship",
+      iconColor: "white",
+      markerColor: "black",
+      prefix: "fa",
+    });
+    marker_a346b6305cc4f1f9ac8a6caab49572e8.setIcon(
+      icon_a5a6000a895b548adee0feec3b71a0c2
+    );
+
+    var popup_c2cad6019a59c6757ea316ab4d4f4cd3 = L.popup({ maxWidth: "100%" });
+
+    var html_cc074c3e55bc9ebe7ece40fe4b63602f = $(
+      `<div id="html_cc074c3e55bc9ebe7ece40fe4b63602f" style="width: 100.0%; height: 100.0%;">('INS Cheetah', 87.27391360840389)</div>`
+    )[0];
+    popup_c2cad6019a59c6757ea316ab4d4f4cd3.setContent(
+      html_cc074c3e55bc9ebe7ece40fe4b63602f
+    );
+
+    marker_a346b6305cc4f1f9ac8a6caab49572e8.bindPopup(
+      popup_c2cad6019a59c6757ea316ab4d4f4cd3
+    );
+
+    marker_a346b6305cc4f1f9ac8a6caab49572e8.bindTooltip(
+      `<div>
+                     ('INS Cheetah', 87.27391360840389)
+                 </div>`,
+      { sticky: true }
+    );
+
+    var marker_3f3399904e20c3f2c939fdace50dd74f = L.marker(
+      [50.8047148, -1.1667701],
+      {}
+    ).addTo(map_fb8527b15286998fe2776a52cfac120f);
+
+    var icon_6530d6ebc2ab185afe8cc956ba50c598 = L.AwesomeMarkers.icon({
+      extraClasses: "fa-rotate-0",
+      icon: "ship",
+      iconColor: "white",
+      markerColor: "black",
+      prefix: "fa",
+    });
+    marker_3f3399904e20c3f2c939fdace50dd74f.setIcon(
+      icon_6530d6ebc2ab185afe8cc956ba50c598
+    );
+
+    var popup_f37c1a6c09c63f13e0ab5ce29ffb95fa = L.popup({ maxWidth: "100%" });
+
+    var html_e91624814bf7a01faf258e7ec5d75034 = $(
+      `<div id="html_e91624814bf7a01faf258e7ec5d75034" style="width: 100.0%; height: 100.0%;">('HMS Portland', 85.43001345009979)</div>`
+    )[0];
+    popup_f37c1a6c09c63f13e0ab5ce29ffb95fa.setContent(
+      html_e91624814bf7a01faf258e7ec5d75034
+    );
+
+    marker_3f3399904e20c3f2c939fdace50dd74f.bindPopup(
+      popup_f37c1a6c09c63f13e0ab5ce29ffb95fa
+    );
+
+    marker_3f3399904e20c3f2c939fdace50dd74f.bindTooltip(
+      `<div>
+                     ('HMS Portland', 85.43001345009979)
+                 </div>`,
+      { sticky: true }
+    );
+
+    var marker_446331026835aa419fe0edcb2d88bebb = L.marker(
+      [4.4563456, 71.9178649],
+      {}
+    ).addTo(map_fb8527b15286998fe2776a52cfac120f);
+
+    var icon_2cb33e6fdd9fe0bb021dce13188ffb14 = L.AwesomeMarkers.icon({
+      extraClasses: "fa-rotate-0",
+      icon: "ship",
+      iconColor: "white",
+      markerColor: "black",
+      prefix: "fa",
+    });
+    marker_446331026835aa419fe0edcb2d88bebb.setIcon(
+      icon_2cb33e6fdd9fe0bb021dce13188ffb14
+    );
+
+    var popup_ea3f038f597db928504a1e3fc54d5275 = L.popup({ maxWidth: "100%" });
+
+    var html_d52de60fc69ee70ee29a3ce1d823bfa1 = $(
+      `<div id="html_d52de60fc69ee70ee29a3ce1d823bfa1" style="width: 100.0%; height: 100.0%;">('INS Airavat', 84.25116006936238)</div>`
+    )[0];
+    popup_ea3f038f597db928504a1e3fc54d5275.setContent(
+      html_d52de60fc69ee70ee29a3ce1d823bfa1
+    );
+
+    marker_446331026835aa419fe0edcb2d88bebb.bindPopup(
+      popup_ea3f038f597db928504a1e3fc54d5275
+    );
+
+    marker_446331026835aa419fe0edcb2d88bebb.bindTooltip(
+      `<div>
+                     ('INS Airavat', 84.25116006936238)
+                 </div>`,
+      { sticky: true }
+    );
+  </script>
+</html>

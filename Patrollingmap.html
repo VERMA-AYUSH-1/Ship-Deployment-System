@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+    <script>
+      L_NO_TOUCH = false;
+      L_DISABLE_3D = false;
+    </script>
+
+    <style>
+      html,
+      body {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <style>
+      #map {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+      }
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"
+    />
+
+    <meta
+      name="viewport"
+      content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <style>
+      #map_684b6be4612ed32c4b469d17b77f0811 {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        left: 0%;
+        top: 0%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="folium-map" id="map_684b6be4612ed32c4b469d17b77f0811"></div>
+  </body>
+  <script>
+    var map_684b6be4612ed32c4b469d17b77f0811 = L.map(
+      "map_684b6be4612ed32c4b469d17b77f0811",
+      {
+        center: [15.185833, 69.112],
+        crs: L.CRS.EPSG3857,
+        zoom: 5,
+        zoomControl: true,
+        preferCanvas: false,
+      }
+    );
+
+    var tile_layer_06c623b681bbe3a24ee2a9048af17e8f = L.tileLayer(
+      "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+      {
+        attribution:
+          'Data by \u0026copy; \u003ca href="http://openstreetmap.org"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href="http://www.openstreetmap.org/copyright"\u003eODbL\u003c/a\u003e.',
+        detectRetina: false,
+        maxNativeZoom: 18,
+        maxZoom: 18,
+        minZoom: 0,
+        noWrap: false,
+        opacity: 1,
+        subdomains: "abc",
+        tms: false,
+      }
+    ).addTo(map_684b6be4612ed32c4b469d17b77f0811);
+
+    var marker_54174655738b206011bcffcce20e838e = L.marker(
+      [21.3548578, -158.0118351],
+      {}
+    ).addTo(map_684b6be4612ed32c4b469d17b77f0811);
+
+    var icon_74306a5576d20bbcdd90198964377ced = L.AwesomeMarkers.icon({
+      extraClasses: "fa-rotate-0",
+      icon: "ship",
+      iconColor: "white",
+      markerColor: "black",
+      prefix: "fa",
+    });
+    marker_54174655738b206011bcffcce20e838e.setIcon(
+      icon_74306a5576d20bbcdd90198964377ced
+    );
+
+    var popup_35e87191cf2c240b5c370a6da90ee879 = L.popup({ maxWidth: "100%" });
+
+    var html_c845b43ee9bb4223371e3f4d8ba2eb9c = $(
+      `<div id="html_c845b43ee9bb4223371e3f4d8ba2eb9c" style="width: 100.0%; height: 100.0%;">('USS Chafee', 93.03753427068608)</div>`
+    )[0];
+    popup_35e87191cf2c240b5c370a6da90ee879.setContent(
+      html_c845b43ee9bb4223371e3f4d8ba2eb9c
+    );
+
+    marker_54174655738b206011bcffcce20e838e.bindPopup(
+      popup_35e87191cf2c240b5c370a6da90ee879
+    );
+
+    marker_54174655738b206011bcffcce20e838e.bindTooltip(
+      `<div>
+                     ('USS Chafee', 93.03753427068608)
+                 </div>`,
+      { sticky: true }
+    );
+
+    var marker_e4235882f8562c03e31ac1dafc1edc84 = L.marker(
+      [50.8047148, -1.1667701],
+      {}
+    ).addTo(map_684b6be4612ed32c4b469d17b77f0811);
+
+    var icon_a04b0578de7f6b1f2dfa2e38a982bd59 = L.AwesomeMarkers.icon({
+      extraClasses: "fa-rotate-0",
+      icon: "ship",
+      iconColor: "white",
+      markerColor: "black",
+      prefix: "fa",
+    });
+    marker_e4235882f8562c03e31ac1dafc1edc84.setIcon(
+      icon_a04b0578de7f6b1f2dfa2e38a982bd59
+    );
+
+    var popup_23ed7679e610cd14670f3c0f3062e970 = L.popup({ maxWidth: "100%" });
+
+    var html_a053389e070dbc5a8360c3dc2ec0c2a7 = $(
+      `<div id="html_a053389e070dbc5a8360c3dc2ec0c2a7" style="width: 100.0%; height: 100.0%;">('HMS Argyll', 90.52102083546792)</div>`
+    )[0];
+    popup_23ed7679e610cd14670f3c0f3062e970.setContent(
+      html_a053389e070dbc5a8360c3dc2ec0c2a7
+    );
+
+    marker_e4235882f8562c03e31ac1dafc1edc84.bindPopup(
+      popup_23ed7679e610cd14670f3c0f3062e970
+    );
+
+    marker_e4235882f8562c03e31ac1dafc1edc84.bindTooltip(
+      `<div>
+                     ('HMS Argyll', 90.52102083546792)
+                 </div>`,
+      { sticky: true }
+    );
+
+    var marker_60c83b8e31032fe1eb7bddc78983d462 = L.marker(
+      [50.8047148, -1.1667701],
+      {}
+    ).addTo(map_684b6be4612ed32c4b469d17b77f0811);
+
+    var icon_9899e9dd8597c27e86b460dec66cba5f = L.AwesomeMarkers.icon({
+      extraClasses: "fa-rotate-0",
+      icon: "ship",
+      iconColor: "white",
+      markerColor: "black",
+      prefix: "fa",
+    });
+    marker_60c83b8e31032fe1eb7bddc78983d462.setIcon(
+      icon_9899e9dd8597c27e86b460dec66cba5f
+    );
+
+    var popup_23b95533d70f061171ec67acd6181b87 = L.popup({ maxWidth: "100%" });
+
+    var html_854a631f740e2eee88c943ff63386885 = $(
+      `<div id="html_854a631f740e2eee88c943ff63386885" style="width: 100.0%; height: 100.0%;">('HMS Dauntless', 89.25812988914419)</div>`
+    )[0];
+    popup_23b95533d70f061171ec67acd6181b87.setContent(
+      html_854a631f740e2eee88c943ff63386885
+    );
+
+    marker_60c83b8e31032fe1eb7bddc78983d462.bindPopup(
+      popup_23b95533d70f061171ec67acd6181b87
+    );
+
+    marker_60c83b8e31032fe1eb7bddc78983d462.bindTooltip(
+      `<div>
+                     ('HMS Dauntless', 89.25812988914419)
+                 </div>`,
+      { sticky: true }
+    );
+  </script>
+</html>

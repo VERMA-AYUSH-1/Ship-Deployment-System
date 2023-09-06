@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_9e2f8e80f5d8d34d6669d28e6f04400e {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_9e2f8e80f5d8d34d6669d28e6f04400e" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_9e2f8e80f5d8d34d6669d28e6f04400e = L.map(
+                "map_9e2f8e80f5d8d34d6669d28e6f04400e",
+                {
+                    center: [15.185833, 69.112],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_1f8c39affe81892270a9015c2ad75979 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_9e2f8e80f5d8d34d6669d28e6f04400e);
+        
+    
+            var marker_3f6bf282e781ad8eeaaac04906170a5c = L.marker(
+                [21.061936, 88.0236771],
+                {}
+            ).addTo(map_9e2f8e80f5d8d34d6669d28e6f04400e);
+        
+    
+            var icon_64395d629a27b0039693ed5d2026bd74 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_3f6bf282e781ad8eeaaac04906170a5c.setIcon(icon_64395d629a27b0039693ed5d2026bd74);
+        
+    
+        var popup_122e025fc94b04ec3f0b50fac02a7e0e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cade7d897385315975214d1cefdb196 = $(`<div id="html_8cade7d897385315975214d1cefdb196" style="width: 100.0%; height: 100.0%;">('INS Jyoti', 69.26457598608366)</div>`)[0];
+                popup_122e025fc94b04ec3f0b50fac02a7e0e.setContent(html_8cade7d897385315975214d1cefdb196);
+            
+        
+
+        marker_3f6bf282e781ad8eeaaac04906170a5c.bindPopup(popup_122e025fc94b04ec3f0b50fac02a7e0e)
+        ;
+
+        
+    
+    
+            marker_3f6bf282e781ad8eeaaac04906170a5c.bindTooltip(
+                `<div>
+                     ('INS Jyoti', 69.26457598608366)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_676b66167a46a48d755efea022a6fb75 = L.marker(
+                [38.8936708, -77.1546618],
+                {}
+            ).addTo(map_9e2f8e80f5d8d34d6669d28e6f04400e);
+        
+    
+            var icon_4eacc225b8bd531ae8ca125c2b14fb2a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_676b66167a46a48d755efea022a6fb75.setIcon(icon_4eacc225b8bd531ae8ca125c2b14fb2a);
+        
+    
+        var popup_0a0a8ec635e6edfff824dd83c2a9cc38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab47bfb93adcefee5a649e2b0312532b = $(`<div id="html_ab47bfb93adcefee5a649e2b0312532b" style="width: 100.0%; height: 100.0%;">('USS Abraham Lincoln', 68.67321168795648)</div>`)[0];
+                popup_0a0a8ec635e6edfff824dd83c2a9cc38.setContent(html_ab47bfb93adcefee5a649e2b0312532b);
+            
+        
+
+        marker_676b66167a46a48d755efea022a6fb75.bindPopup(popup_0a0a8ec635e6edfff824dd83c2a9cc38)
+        ;
+
+        
+    
+    
+            marker_676b66167a46a48d755efea022a6fb75.bindTooltip(
+                `<div>
+                     ('USS Abraham Lincoln', 68.67321168795648)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7480df8df82aa784c5f338243f165619 = L.marker(
+                [19.2221978, 72.7410981],
+                {}
+            ).addTo(map_9e2f8e80f5d8d34d6669d28e6f04400e);
+        
+    
+            var icon_c5ed08c4ff85cf775c44b19270323997 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "black", "prefix": "fa"}
+            );
+            marker_7480df8df82aa784c5f338243f165619.setIcon(icon_c5ed08c4ff85cf775c44b19270323997);
+        
+    
+        var popup_62512671951c1a8c9c1a2298e2efadca = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b38a46b083bee4eebf20aa0d61e85a73 = $(`<div id="html_b38a46b083bee4eebf20aa0d61e85a73" style="width: 100.0%; height: 100.0%;">('INS Deepak', 58.723337472228465)</div>`)[0];
+                popup_62512671951c1a8c9c1a2298e2efadca.setContent(html_b38a46b083bee4eebf20aa0d61e85a73);
+            
+        
+
+        marker_7480df8df82aa784c5f338243f165619.bindPopup(popup_62512671951c1a8c9c1a2298e2efadca)
+        ;
+
+        
+    
+    
+            marker_7480df8df82aa784c5f338243f165619.bindTooltip(
+                `<div>
+                     ('INS Deepak', 58.723337472228465)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>

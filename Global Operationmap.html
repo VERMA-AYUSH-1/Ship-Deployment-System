@@ -1,0 +1,4023 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6eb1826a1d5ff6fca91aa0b8059431dd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6eb1826a1d5ff6fca91aa0b8059431dd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6eb1826a1d5ff6fca91aa0b8059431dd = L.map(
+                "map_6eb1826a1d5ff6fca91aa0b8059431dd",
+                {
+                    center: [15.185833, 69.112],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 5,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_42cb99ca447ab89b1f93ec66c6d359ff = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var marker_1532434e45e9e2897e1607d60b6ac95f = L.marker(
+                [19.0821978, 72.7410981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_84325afd35628023452f4f4821fc07c5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1532434e45e9e2897e1607d60b6ac95f.setIcon(icon_84325afd35628023452f4f4821fc07c5);
+        
+    
+        var popup_723e7cd1c0b4033308a0b0c3dad6d8e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c5334baf81f9d09dc58db0eb02d96a9d = $(`<div id="html_c5334baf81f9d09dc58db0eb02d96a9d" style="width: 100.0%; height: 100.0%;">('INS Visakhapatnam', 'D66', 'India', 'Destroyer', 'Kolkata', '30Â\xa0kn (56Â\xa0km/h; 35Â\xa0mph)', '163 m (535 ft)')</div>`)[0];
+                popup_723e7cd1c0b4033308a0b0c3dad6d8e8.setContent(html_c5334baf81f9d09dc58db0eb02d96a9d);
+            
+        
+
+        marker_1532434e45e9e2897e1607d60b6ac95f.bindPopup(popup_723e7cd1c0b4033308a0b0c3dad6d8e8)
+        ;
+
+        
+    
+    
+            marker_1532434e45e9e2897e1607d60b6ac95f.bindTooltip(
+                `<div>
+                     ('INS Visakhapatnam', 'D66', 'India', 'Destroyer', 'Kolkata', '30Â\xa0kn (56Â\xa0km/h; 35Â\xa0mph)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edf6df51dd77cdcb26529341683363e1 = L.marker(
+                [19.285178, 71.848633],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_aeaf3e08c6f2393a95e34fc798218365 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_edf6df51dd77cdcb26529341683363e1.setIcon(icon_aeaf3e08c6f2393a95e34fc798218365);
+        
+    
+        var popup_f55f037f44619ba75c3eb872c30b6df6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_55b48bbf4d9e9c906413fbc044b6eea3 = $(`<div id="html_55b48bbf4d9e9c906413fbc044b6eea3" style="width: 100.0%; height: 100.0%;">('INS Kolkata', 'D63', 'India', 'Destroyer', 'Kolkata', '30Â\xa0kn (56Â\xa0km/h; 35Â\xa0mph)', '163 m (535 ft)')</div>`)[0];
+                popup_f55f037f44619ba75c3eb872c30b6df6.setContent(html_55b48bbf4d9e9c906413fbc044b6eea3);
+            
+        
+
+        marker_edf6df51dd77cdcb26529341683363e1.bindPopup(popup_f55f037f44619ba75c3eb872c30b6df6)
+        ;
+
+        
+    
+    
+            marker_edf6df51dd77cdcb26529341683363e1.bindTooltip(
+                `<div>
+                     ('INS Kolkata', 'D63', 'India', 'Destroyer', 'Kolkata', '30Â\xa0kn (56Â\xa0km/h; 35Â\xa0mph)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a7ef9190a7a2c0c653c3f0ac379f37f1 = L.marker(
+                [19.3821978, 70.7410981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_cf6d7d95c37774333f9c9974aaf2a39d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a7ef9190a7a2c0c653c3f0ac379f37f1.setIcon(icon_cf6d7d95c37774333f9c9974aaf2a39d);
+        
+    
+        var popup_ed81fd150aa425b60a0f8e52349d33ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_15dac380f436dd794cceb0b0541f1df7 = $(`<div id="html_15dac380f436dd794cceb0b0541f1df7" style="width: 100.0%; height: 100.0%;">('INS Kochi', 'D64', 'India', 'Destroyer', 'Kolkata', '30Â\xa0kn (56Â\xa0km/h; 35Â\xa0mph)', '163 m (535 ft)')</div>`)[0];
+                popup_ed81fd150aa425b60a0f8e52349d33ce.setContent(html_15dac380f436dd794cceb0b0541f1df7);
+            
+        
+
+        marker_a7ef9190a7a2c0c653c3f0ac379f37f1.bindPopup(popup_ed81fd150aa425b60a0f8e52349d33ce)
+        ;
+
+        
+    
+    
+            marker_a7ef9190a7a2c0c653c3f0ac379f37f1.bindTooltip(
+                `<div>
+                     ('INS Kochi', 'D64', 'India', 'Destroyer', 'Kolkata', '30Â\xa0kn (56Â\xa0km/h; 35Â\xa0mph)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c2af7939175b370baa6d6e2097edafa9 = L.marker(
+                [19.067456, 71.8460981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_7d4c5826a60484dbbb35d4e10361556b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c2af7939175b370baa6d6e2097edafa9.setIcon(icon_7d4c5826a60484dbbb35d4e10361556b);
+        
+    
+        var popup_0c00fe69b798d26f2f06dfb19a78e681 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fe2050c7a61144a32a742b56a49a2cd5 = $(`<div id="html_fe2050c7a61144a32a742b56a49a2cd5" style="width: 100.0%; height: 100.0%;">('INS Chennai', 'D65', 'India', 'Destroyer', 'Kolkata', '30Â\xa0kn (56Â\xa0km/h; 35Â\xa0mph)', '163 m (535 ft)')</div>`)[0];
+                popup_0c00fe69b798d26f2f06dfb19a78e681.setContent(html_fe2050c7a61144a32a742b56a49a2cd5);
+            
+        
+
+        marker_c2af7939175b370baa6d6e2097edafa9.bindPopup(popup_0c00fe69b798d26f2f06dfb19a78e681)
+        ;
+
+        
+    
+    
+            marker_c2af7939175b370baa6d6e2097edafa9.bindTooltip(
+                `<div>
+                     ('INS Chennai', 'D65', 'India', 'Destroyer', 'Kolkata', '30Â\xa0kn (56Â\xa0km/h; 35Â\xa0mph)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_eec6a40165f684eaca534f6ebe1012e2 = L.marker(
+                [18.0821978, 72.5510981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_325398c8a2cb617dfea173f26957669b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_eec6a40165f684eaca534f6ebe1012e2.setIcon(icon_325398c8a2cb617dfea173f26957669b);
+        
+    
+        var popup_e7404acb569823cd9bff7347c1ec3958 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e3d875cc2b94685480d138ca68f5a089 = $(`<div id="html_e3d875cc2b94685480d138ca68f5a089" style="width: 100.0%; height: 100.0%;">('INS Mysore', 'D60', 'India', 'Destroyer', 'Delhi', '32 knots (59 km/h; 37 mph)', '163 m (535 ft)')</div>`)[0];
+                popup_e7404acb569823cd9bff7347c1ec3958.setContent(html_e3d875cc2b94685480d138ca68f5a089);
+            
+        
+
+        marker_eec6a40165f684eaca534f6ebe1012e2.bindPopup(popup_e7404acb569823cd9bff7347c1ec3958)
+        ;
+
+        
+    
+    
+            marker_eec6a40165f684eaca534f6ebe1012e2.bindTooltip(
+                `<div>
+                     ('INS Mysore', 'D60', 'India', 'Destroyer', 'Delhi', '32 knots (59 km/h; 37 mph)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f394ac37adaa16bcf2ab1890d60c7c66 = L.marker(
+                [18.1221978, 70.5410981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_c078cdf47b98aef931578f82f353bdea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f394ac37adaa16bcf2ab1890d60c7c66.setIcon(icon_c078cdf47b98aef931578f82f353bdea);
+        
+    
+        var popup_8aab8360b1201d7bf0fe5d3dbace5467 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7a828955adfdf9d720a94baf223b41ce = $(`<div id="html_7a828955adfdf9d720a94baf223b41ce" style="width: 100.0%; height: 100.0%;">('INS Delhi', 'D61', 'India', 'Destroyer', 'Delhi', '32 knots (59 km/h; 37 mph)', '163 m (535 ft)')</div>`)[0];
+                popup_8aab8360b1201d7bf0fe5d3dbace5467.setContent(html_7a828955adfdf9d720a94baf223b41ce);
+            
+        
+
+        marker_f394ac37adaa16bcf2ab1890d60c7c66.bindPopup(popup_8aab8360b1201d7bf0fe5d3dbace5467)
+        ;
+
+        
+    
+    
+            marker_f394ac37adaa16bcf2ab1890d60c7c66.bindTooltip(
+                `<div>
+                     ('INS Delhi', 'D61', 'India', 'Destroyer', 'Delhi', '32 knots (59 km/h; 37 mph)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_693bfb98564cc21eb01bf9862d7cda22 = L.marker(
+                [16.3821978, 69.7410981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_66b4ec9ea1b008e481b080b0f5a36ece = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_693bfb98564cc21eb01bf9862d7cda22.setIcon(icon_66b4ec9ea1b008e481b080b0f5a36ece);
+        
+    
+        var popup_b816a4b243280a473df7f2fe82da805d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b574099746f6964a74431bcea3b2870 = $(`<div id="html_7b574099746f6964a74431bcea3b2870" style="width: 100.0%; height: 100.0%;">('INS Mumbai', 'D62', 'India', 'Destroyer', 'Delhi', '32 knots (59 km/h; 37 mph)', '163 m (535 ft)')</div>`)[0];
+                popup_b816a4b243280a473df7f2fe82da805d.setContent(html_7b574099746f6964a74431bcea3b2870);
+            
+        
+
+        marker_693bfb98564cc21eb01bf9862d7cda22.bindPopup(popup_b816a4b243280a473df7f2fe82da805d)
+        ;
+
+        
+    
+    
+            marker_693bfb98564cc21eb01bf9862d7cda22.bindTooltip(
+                `<div>
+                     ('INS Mumbai', 'D62', 'India', 'Destroyer', 'Delhi', '32 knots (59 km/h; 37 mph)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c6daeede3e40f9b8ae66dd8d2859dfc = L.marker(
+                [9.341231, 74.355887],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_5bdf4f4c5b269b8de4ad2deac9c46d98 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7c6daeede3e40f9b8ae66dd8d2859dfc.setIcon(icon_5bdf4f4c5b269b8de4ad2deac9c46d98);
+        
+    
+        var popup_0b4ad798db557c678bb383fda914a9d7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d60d5c47dac967057ee781611205bb07 = $(`<div id="html_d60d5c47dac967057ee781611205bb07" style="width: 100.0%; height: 100.0%;">('INS Rana', 'D52', 'India', 'Destroyer', 'Rajput', '35 knots (65 km/h)', '147 m (482 ft)')</div>`)[0];
+                popup_0b4ad798db557c678bb383fda914a9d7.setContent(html_d60d5c47dac967057ee781611205bb07);
+            
+        
+
+        marker_7c6daeede3e40f9b8ae66dd8d2859dfc.bindPopup(popup_0b4ad798db557c678bb383fda914a9d7)
+        ;
+
+        
+    
+    
+            marker_7c6daeede3e40f9b8ae66dd8d2859dfc.bindTooltip(
+                `<div>
+                     ('INS Rana', 'D52', 'India', 'Destroyer', 'Rajput', '35 knots (65 km/h)', '147 m (482 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_41029f9a4c432b4261100cf8a4356a91 = L.marker(
+                [14.4386225, 83.1225031],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_e31e1b127f75020bb3c0731176d1ffb1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_41029f9a4c432b4261100cf8a4356a91.setIcon(icon_e31e1b127f75020bb3c0731176d1ffb1);
+        
+    
+        var popup_8aa0a6b9edd60298fead741913232e41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d5986e2b9b8d7cda5da0de5cbdf1e55b = $(`<div id="html_d5986e2b9b8d7cda5da0de5cbdf1e55b" style="width: 100.0%; height: 100.0%;">('INS Ranvijay', 'D54', 'India', 'Destroyer', 'Rajput', '35 knots (65 km/h)', '147 m (482 ft)')</div>`)[0];
+                popup_8aa0a6b9edd60298fead741913232e41.setContent(html_d5986e2b9b8d7cda5da0de5cbdf1e55b);
+            
+        
+
+        marker_41029f9a4c432b4261100cf8a4356a91.bindPopup(popup_8aa0a6b9edd60298fead741913232e41)
+        ;
+
+        
+    
+    
+            marker_41029f9a4c432b4261100cf8a4356a91.bindTooltip(
+                `<div>
+                     ('INS Ranvijay', 'D54', 'India', 'Destroyer', 'Rajput', '35 knots (65 km/h)', '147 m (482 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ec5a32296541e8ceb1ec997ec14c0e4e = L.marker(
+                [15.7386225, 83.1225031],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_bce4f71eebdbe0afce4dc6db518349d8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ec5a32296541e8ceb1ec997ec14c0e4e.setIcon(icon_bce4f71eebdbe0afce4dc6db518349d8);
+        
+    
+        var popup_e427a15f249e2f40387b67776247289a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8876eb1df17de22c59e5bac99da46b1a = $(`<div id="html_8876eb1df17de22c59e5bac99da46b1a" style="width: 100.0%; height: 100.0%;">('INS Ranvir', 'D55', 'India', 'Destroyer', 'Rajput', '35 knots (65 km/h)', '147 m (482 ft)')</div>`)[0];
+                popup_e427a15f249e2f40387b67776247289a.setContent(html_8876eb1df17de22c59e5bac99da46b1a);
+            
+        
+
+        marker_ec5a32296541e8ceb1ec997ec14c0e4e.bindPopup(popup_e427a15f249e2f40387b67776247289a)
+        ;
+
+        
+    
+    
+            marker_ec5a32296541e8ceb1ec997ec14c0e4e.bindTooltip(
+                `<div>
+                     ('INS Ranvir', 'D55', 'India', 'Destroyer', 'Rajput', '35 knots (65 km/h)', '147 m (482 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e546a7126c7f9a3d76ef00020b121bbf = L.marker(
+                [14.1565454, 88.4623455],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_939f2bb2143f8a28325239df7702f616 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e546a7126c7f9a3d76ef00020b121bbf.setIcon(icon_939f2bb2143f8a28325239df7702f616);
+        
+    
+        var popup_c0fa01315f989bf1384c8ac7469316da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a602e0f8c7b38b6dcb8688cf25770b51 = $(`<div id="html_a602e0f8c7b38b6dcb8688cf25770b51" style="width: 100.0%; height: 100.0%;">('INS Shivalik', 'F47', 'India', 'Frigate', 'Shivalik', '32 kn (59 km/h; 37 mph) ', '142.5 m (468 ft)')</div>`)[0];
+                popup_c0fa01315f989bf1384c8ac7469316da.setContent(html_a602e0f8c7b38b6dcb8688cf25770b51);
+            
+        
+
+        marker_e546a7126c7f9a3d76ef00020b121bbf.bindPopup(popup_c0fa01315f989bf1384c8ac7469316da)
+        ;
+
+        
+    
+    
+            marker_e546a7126c7f9a3d76ef00020b121bbf.bindTooltip(
+                `<div>
+                     ('INS Shivalik', 'F47', 'India', 'Frigate', 'Shivalik', '32 kn (59 km/h; 37 mph) ', '142.5 m (468 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b0e179035a1aff9451da93d79b29a189 = L.marker(
+                [9.9823428, 76.1608452],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_fbcdca9f6f6d8c5a9c0fb29fcb9c4205 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b0e179035a1aff9451da93d79b29a189.setIcon(icon_fbcdca9f6f6d8c5a9c0fb29fcb9c4205);
+        
+    
+        var popup_42fe2fb6bb139e059aad81534d18e05a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_28aef18d1cf2cd437809d00e74603236 = $(`<div id="html_28aef18d1cf2cd437809d00e74603236" style="width: 100.0%; height: 100.0%;">('INS Satpura', 'F48', 'India', 'Frigate', 'Shivalik', '32 kn (59 km/h; 37 mph) ', '142.5 m (468 ft)')</div>`)[0];
+                popup_42fe2fb6bb139e059aad81534d18e05a.setContent(html_28aef18d1cf2cd437809d00e74603236);
+            
+        
+
+        marker_b0e179035a1aff9451da93d79b29a189.bindPopup(popup_42fe2fb6bb139e059aad81534d18e05a)
+        ;
+
+        
+    
+    
+            marker_b0e179035a1aff9451da93d79b29a189.bindTooltip(
+                `<div>
+                     ('INS Satpura', 'F48', 'India', 'Frigate', 'Shivalik', '32 kn (59 km/h; 37 mph) ', '142.5 m (468 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5a84d2bf724651a3b4e4a9859fa64eca = L.marker(
+                [18.7821978, 72.7410981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_8a476e7585e55a01535831066cd3f8ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5a84d2bf724651a3b4e4a9859fa64eca.setIcon(icon_8a476e7585e55a01535831066cd3f8ca);
+        
+    
+        var popup_12d6654de72a7b8534a77827a0af151d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a34102baf02297f0e2f01ecca498a999 = $(`<div id="html_a34102baf02297f0e2f01ecca498a999" style="width: 100.0%; height: 100.0%;">('INS Sahyadri', 'F49', 'India', 'Frigate', 'Shivalik', '32 kn (59 km/h; 37 mph) ', '142.5 m (468 ft)')</div>`)[0];
+                popup_12d6654de72a7b8534a77827a0af151d.setContent(html_a34102baf02297f0e2f01ecca498a999);
+            
+        
+
+        marker_5a84d2bf724651a3b4e4a9859fa64eca.bindPopup(popup_12d6654de72a7b8534a77827a0af151d)
+        ;
+
+        
+    
+    
+            marker_5a84d2bf724651a3b4e4a9859fa64eca.bindTooltip(
+                `<div>
+                     ('INS Sahyadri', 'F49', 'India', 'Frigate', 'Shivalik', '32 kn (59 km/h; 37 mph) ', '142.5 m (468 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_223df69dc1b01d9e44e2da5aab1896a1 = L.marker(
+                [13.0835542, 92.2767408],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_6115802c9ab8fc802793aa6c21b8f00f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_223df69dc1b01d9e44e2da5aab1896a1.setIcon(icon_6115802c9ab8fc802793aa6c21b8f00f);
+        
+    
+        var popup_1d054eada5f6064ece5ea2261ce73f25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e9e651fdf76fbe43a15a8bf881a8ec2e = $(`<div id="html_e9e651fdf76fbe43a15a8bf881a8ec2e" style="width: 100.0%; height: 100.0%;">('INS Betwa', 'F39', 'India', 'Frigate', 'Brahmaputra', '30 knots (56 km/h; 35 mph)', '126.4 m (414 ft 8 in)')</div>`)[0];
+                popup_1d054eada5f6064ece5ea2261ce73f25.setContent(html_e9e651fdf76fbe43a15a8bf881a8ec2e);
+            
+        
+
+        marker_223df69dc1b01d9e44e2da5aab1896a1.bindPopup(popup_1d054eada5f6064ece5ea2261ce73f25)
+        ;
+
+        
+    
+    
+            marker_223df69dc1b01d9e44e2da5aab1896a1.bindTooltip(
+                `<div>
+                     ('INS Betwa', 'F39', 'India', 'Frigate', 'Brahmaputra', '30 knots (56 km/h; 35 mph)', '126.4 m (414 ft 8 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_470228dbca6a2b375409b7e1524a5b73 = L.marker(
+                [19.0821978, 68.7410981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_4bda5155d5111297e97d2dadc2e4d705 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_470228dbca6a2b375409b7e1524a5b73.setIcon(icon_4bda5155d5111297e97d2dadc2e4d705);
+        
+    
+        var popup_e964eeb61d6a19b5acd32f5a72b405d4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a52c48121adc4b70b8ece3e04bd5a432 = $(`<div id="html_a52c48121adc4b70b8ece3e04bd5a432" style="width: 100.0%; height: 100.0%;">('INS Beas', 'F37', 'India', 'Frigate', 'Brahmaputra', '30 knots (56 km/h; 35 mph)', '126.4 m (414 ft 8 in)')</div>`)[0];
+                popup_e964eeb61d6a19b5acd32f5a72b405d4.setContent(html_a52c48121adc4b70b8ece3e04bd5a432);
+            
+        
+
+        marker_470228dbca6a2b375409b7e1524a5b73.bindPopup(popup_e964eeb61d6a19b5acd32f5a72b405d4)
+        ;
+
+        
+    
+    
+            marker_470228dbca6a2b375409b7e1524a5b73.bindTooltip(
+                `<div>
+                     ('INS Beas', 'F37', 'India', 'Frigate', 'Brahmaputra', '30 knots (56 km/h; 35 mph)', '126.4 m (414 ft 8 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fd761b2b4f1d362825e3d0410b455e29 = L.marker(
+                [16.7386225, 83.1225031],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_dff29fd4cc95201b614ada3aaa97c6b3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fd761b2b4f1d362825e3d0410b455e29.setIcon(icon_dff29fd4cc95201b614ada3aaa97c6b3);
+        
+    
+        var popup_4117a6f8cebc9933db8087bf68d6c332 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8bb827b632ceda4d05a5f84a80ad4f0e = $(`<div id="html_8bb827b632ceda4d05a5f84a80ad4f0e" style="width: 100.0%; height: 100.0%;">('INS Kamorta', 'P28', 'India', 'Corvette', 'Kamorta', '32 knots (59 km/h; 37 mph)', '109.1 m')</div>`)[0];
+                popup_4117a6f8cebc9933db8087bf68d6c332.setContent(html_8bb827b632ceda4d05a5f84a80ad4f0e);
+            
+        
+
+        marker_fd761b2b4f1d362825e3d0410b455e29.bindPopup(popup_4117a6f8cebc9933db8087bf68d6c332)
+        ;
+
+        
+    
+    
+            marker_fd761b2b4f1d362825e3d0410b455e29.bindTooltip(
+                `<div>
+                     ('INS Kamorta', 'P28', 'India', 'Corvette', 'Kamorta', '32 knots (59 km/h; 37 mph)', '109.1 m')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_99332a01a46276422c6ae9ec9904be45 = L.marker(
+                [17.7386225, 85.1225031],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_84d73fe5d93862f9f7a8b7ddaae07703 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_99332a01a46276422c6ae9ec9904be45.setIcon(icon_84d73fe5d93862f9f7a8b7ddaae07703);
+        
+    
+        var popup_546b01d7f78e0fda167429d4287d8f26 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4091691be7f1fa1afacf666900f31df8 = $(`<div id="html_4091691be7f1fa1afacf666900f31df8" style="width: 100.0%; height: 100.0%;">('INS Kadmatt', 'P29', 'India', 'Corvette', 'Kamorta', '32 knots (59 km/h; 37 mph)', '109.1 m')</div>`)[0];
+                popup_546b01d7f78e0fda167429d4287d8f26.setContent(html_4091691be7f1fa1afacf666900f31df8);
+            
+        
+
+        marker_99332a01a46276422c6ae9ec9904be45.bindPopup(popup_546b01d7f78e0fda167429d4287d8f26)
+        ;
+
+        
+    
+    
+            marker_99332a01a46276422c6ae9ec9904be45.bindTooltip(
+                `<div>
+                     ('INS Kadmatt', 'P29', 'India', 'Corvette', 'Kamorta', '32 knots (59 km/h; 37 mph)', '109.1 m')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75d007b676c2a071b4577c1d99173750 = L.marker(
+                [17.7386225, 86.5225031],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_d4fa8b70cb65af6857ccfec6b4498aed = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_75d007b676c2a071b4577c1d99173750.setIcon(icon_d4fa8b70cb65af6857ccfec6b4498aed);
+        
+    
+        var popup_22e39941b35e03fae3b3da5a7b352b7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3575da27eb9f9f105166e375ef320682 = $(`<div id="html_3575da27eb9f9f105166e375ef320682" style="width: 100.0%; height: 100.0%;">('INS Kiltan', 'P30', 'India', 'Corvette', 'Kamorta', '32 knots (59 km/h; 37 mph)', '109.1 m')</div>`)[0];
+                popup_22e39941b35e03fae3b3da5a7b352b7c.setContent(html_3575da27eb9f9f105166e375ef320682);
+            
+        
+
+        marker_75d007b676c2a071b4577c1d99173750.bindPopup(popup_22e39941b35e03fae3b3da5a7b352b7c)
+        ;
+
+        
+    
+    
+            marker_75d007b676c2a071b4577c1d99173750.bindTooltip(
+                `<div>
+                     ('INS Kiltan', 'P30', 'India', 'Corvette', 'Kamorta', '32 knots (59 km/h; 37 mph)', '109.1 m')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0353ef98ea1622629eaf3f7178920659 = L.marker(
+                [17.7386225, 87.1255031],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_70080591b571905f3679811a0c79ef91 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0353ef98ea1622629eaf3f7178920659.setIcon(icon_70080591b571905f3679811a0c79ef91);
+        
+    
+        var popup_f857731726fe600715cc1dc370360bf3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40af81b56884d4976f05d1753ba19bd1 = $(`<div id="html_40af81b56884d4976f05d1753ba19bd1" style="width: 100.0%; height: 100.0%;">('INS Kavaratti', 'P31', 'India', 'Corvette', 'Kamorta', '32 knots (59 km/h; 37 mph)', '109.1 m')</div>`)[0];
+                popup_f857731726fe600715cc1dc370360bf3.setContent(html_40af81b56884d4976f05d1753ba19bd1);
+            
+        
+
+        marker_0353ef98ea1622629eaf3f7178920659.bindPopup(popup_f857731726fe600715cc1dc370360bf3)
+        ;
+
+        
+    
+    
+            marker_0353ef98ea1622629eaf3f7178920659.bindTooltip(
+                `<div>
+                     ('INS Kavaratti', 'P31', 'India', 'Corvette', 'Kamorta', '32 knots (59 km/h; 37 mph)', '109.1 m')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_65cff9a212d59c3248023be36b1c088c = L.marker(
+                [18.0421978, 71.7410981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_eeb2bbf5cef0130ea451e51067d2b589 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_65cff9a212d59c3248023be36b1c088c.setIcon(icon_eeb2bbf5cef0130ea451e51067d2b589);
+        
+    
+        var popup_9f938b6040e198864ebcc62f4f2922a1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c263708e75214b772d6f165ed95b943c = $(`<div id="html_c263708e75214b772d6f165ed95b943c" style="width: 100.0%; height: 100.0%;">('INS Vipul', 'K46', 'India', 'Corvette', 'Veer', '36 knots (67 km/h; 41 mph)', '56.1 m (184 ft)')</div>`)[0];
+                popup_9f938b6040e198864ebcc62f4f2922a1.setContent(html_c263708e75214b772d6f165ed95b943c);
+            
+        
+
+        marker_65cff9a212d59c3248023be36b1c088c.bindPopup(popup_9f938b6040e198864ebcc62f4f2922a1)
+        ;
+
+        
+    
+    
+            marker_65cff9a212d59c3248023be36b1c088c.bindTooltip(
+                `<div>
+                     ('INS Vipul', 'K46', 'India', 'Corvette', 'Veer', '36 knots (67 km/h; 41 mph)', '56.1 m (184 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fc15833abd4171674d65f41cd2843e6b = L.marker(
+                [17.0821978, 72.7450981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_46b318b02ba8ebfc2c546d8db053962f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fc15833abd4171674d65f41cd2843e6b.setIcon(icon_46b318b02ba8ebfc2c546d8db053962f);
+        
+    
+        var popup_0561eb03632eea3c594325e4d1c35d00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b861cfef2a5172433a843c4736e965b9 = $(`<div id="html_b861cfef2a5172433a843c4736e965b9" style="width: 100.0%; height: 100.0%;">('INS Vinash', 'K47', 'India', 'Corvette', 'Veer', '36 knots (67 km/h; 41 mph)', '56.1 m (184 ft)')</div>`)[0];
+                popup_0561eb03632eea3c594325e4d1c35d00.setContent(html_b861cfef2a5172433a843c4736e965b9);
+            
+        
+
+        marker_fc15833abd4171674d65f41cd2843e6b.bindPopup(popup_0561eb03632eea3c594325e4d1c35d00)
+        ;
+
+        
+    
+    
+            marker_fc15833abd4171674d65f41cd2843e6b.bindTooltip(
+                `<div>
+                     ('INS Vinash', 'K47', 'India', 'Corvette', 'Veer', '36 knots (67 km/h; 41 mph)', '56.1 m (184 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a9558f012325ced47fb706f5f1c29f7 = L.marker(
+                [9.5523428, 76.1608452],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_e7a48e61184d1bbb7f4b89cc10a044ff = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9a9558f012325ced47fb706f5f1c29f7.setIcon(icon_e7a48e61184d1bbb7f4b89cc10a044ff);
+        
+    
+        var popup_34d81e524d4ebd2949786864ad4490bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bd845388b92cea77b8ebe406af6ab09c = $(`<div id="html_bd845388b92cea77b8ebe406af6ab09c" style="width: 100.0%; height: 100.0%;">('INS Vidyut', 'K48', 'India', 'Corvette', 'Vidyut', '36 knots (67 km/h; 41 mph)', '56.1 m (184 ft)')</div>`)[0];
+                popup_34d81e524d4ebd2949786864ad4490bd.setContent(html_bd845388b92cea77b8ebe406af6ab09c);
+            
+        
+
+        marker_9a9558f012325ced47fb706f5f1c29f7.bindPopup(popup_34d81e524d4ebd2949786864ad4490bd)
+        ;
+
+        
+    
+    
+            marker_9a9558f012325ced47fb706f5f1c29f7.bindTooltip(
+                `<div>
+                     ('INS Vidyut', 'K48', 'India', 'Corvette', 'Vidyut', '36 knots (67 km/h; 41 mph)', '56.1 m (184 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0150b20d91ab2f157ac83a41feaf680b = L.marker(
+                [19.0351978, 69.7410981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_59ea090ed3935e7ed8e151f22e5778bc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0150b20d91ab2f157ac83a41feaf680b.setIcon(icon_59ea090ed3935e7ed8e151f22e5778bc);
+        
+    
+        var popup_7fabc3528a31360bf6a7acd49a544efe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e03ec2cd0a6196fca9433cbdf3495ba3 = $(`<div id="html_e03ec2cd0a6196fca9433cbdf3495ba3" style="width: 100.0%; height: 100.0%;">('INS Vibhuti', 'K45', 'India', 'Corvette', 'Veer', '36 knots (67 km/h; 41 mph)', '56.1 m (184 ft)')</div>`)[0];
+                popup_7fabc3528a31360bf6a7acd49a544efe.setContent(html_e03ec2cd0a6196fca9433cbdf3495ba3);
+            
+        
+
+        marker_0150b20d91ab2f157ac83a41feaf680b.bindPopup(popup_7fabc3528a31360bf6a7acd49a544efe)
+        ;
+
+        
+    
+    
+            marker_0150b20d91ab2f157ac83a41feaf680b.bindTooltip(
+                `<div>
+                     ('INS Vibhuti', 'K45', 'India', 'Corvette', 'Veer', '36 knots (67 km/h; 41 mph)', '56.1 m (184 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ceba26b9492c428a58fa265bfecb9e14 = L.marker(
+                [17.7386225, 85.9825031],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_0b9eb41cf7a2b5ee07fd845265da1916 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ceba26b9492c428a58fa265bfecb9e14.setIcon(icon_0b9eb41cf7a2b5ee07fd845265da1916);
+        
+    
+        var popup_29aa73969086c3f26a2fb5bd99c0731b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5bed22752f729bebe4e321a4c4a8e48 = $(`<div id="html_f5bed22752f729bebe4e321a4c4a8e48" style="width: 100.0%; height: 100.0%;">('INS Kora', 'P61', 'India', 'Corvette', 'Kora', '25 kn (46 km/h; 29 mph)', '91.1 m (299 ft)')</div>`)[0];
+                popup_29aa73969086c3f26a2fb5bd99c0731b.setContent(html_f5bed22752f729bebe4e321a4c4a8e48);
+            
+        
+
+        marker_ceba26b9492c428a58fa265bfecb9e14.bindPopup(popup_29aa73969086c3f26a2fb5bd99c0731b)
+        ;
+
+        
+    
+    
+            marker_ceba26b9492c428a58fa265bfecb9e14.bindTooltip(
+                `<div>
+                     ('INS Kora', 'P61', 'India', 'Corvette', 'Kora', '25 kn (46 km/h; 29 mph)', '91.1 m (299 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_49f4d0a964c6191200e3458b5cb9aa25 = L.marker(
+                [17.7386225, 83.5225031],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_aeb5d32c94ae5b38b7868f1949176345 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_49f4d0a964c6191200e3458b5cb9aa25.setIcon(icon_aeb5d32c94ae5b38b7868f1949176345);
+        
+    
+        var popup_402ab71b8aa11a553a91b639683143fb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3947e891f39d7ce13a436142b34eb368 = $(`<div id="html_3947e891f39d7ce13a436142b34eb368" style="width: 100.0%; height: 100.0%;">('INS Kirch', 'P62', 'India', 'Corvette', 'Kora', '25 kn (46 km/h; 29 mph)', '91.1 m (299 ft)')</div>`)[0];
+                popup_402ab71b8aa11a553a91b639683143fb.setContent(html_3947e891f39d7ce13a436142b34eb368);
+            
+        
+
+        marker_49f4d0a964c6191200e3458b5cb9aa25.bindPopup(popup_402ab71b8aa11a553a91b639683143fb)
+        ;
+
+        
+    
+    
+            marker_49f4d0a964c6191200e3458b5cb9aa25.bindTooltip(
+                `<div>
+                     ('INS Kirch', 'P62', 'India', 'Corvette', 'Kora', '25 kn (46 km/h; 29 mph)', '91.1 m (299 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7370a019c12b7c03ab56f11fa89df562 = L.marker(
+                [19.2221978, 72.7410981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_ca89d5af420556f4c6f09469db0bc8f1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7370a019c12b7c03ab56f11fa89df562.setIcon(icon_ca89d5af420556f4c6f09469db0bc8f1);
+        
+    
+        var popup_f1243444dcd50df498b08445b75a5016 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e87e772e33f4d291a9317d56e08403d9 = $(`<div id="html_e87e772e33f4d291a9317d56e08403d9" style="width: 100.0%; height: 100.0%;">('INS Deepak', nan, 'India', 'Tanker', 'Deepak', nan, '175 m (574 ft)')</div>`)[0];
+                popup_f1243444dcd50df498b08445b75a5016.setContent(html_e87e772e33f4d291a9317d56e08403d9);
+            
+        
+
+        marker_7370a019c12b7c03ab56f11fa89df562.bindPopup(popup_f1243444dcd50df498b08445b75a5016)
+        ;
+
+        
+    
+    
+            marker_7370a019c12b7c03ab56f11fa89df562.bindTooltip(
+                `<div>
+                     ('INS Deepak', nan, 'India', 'Tanker', 'Deepak', nan, '175 m (574 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_35fc93f32051117616c2adcbc3d27fc1 = L.marker(
+                [8.5596766, 73.878655],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_b94422f016809764e0c697762a19ebf7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_35fc93f32051117616c2adcbc3d27fc1.setIcon(icon_b94422f016809764e0c697762a19ebf7);
+        
+    
+        var popup_39ae96d50d579a2448cdaa200fb6b5e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_607c4f78996aa8b77755360592f5ddb8 = $(`<div id="html_607c4f78996aa8b77755360592f5ddb8" style="width: 100.0%; height: 100.0%;">('INS Shakti', nan, 'India', 'Tanker', 'Deepak', nan, '175 m (574 ft)')</div>`)[0];
+                popup_39ae96d50d579a2448cdaa200fb6b5e6.setContent(html_607c4f78996aa8b77755360592f5ddb8);
+            
+        
+
+        marker_35fc93f32051117616c2adcbc3d27fc1.bindPopup(popup_39ae96d50d579a2448cdaa200fb6b5e6)
+        ;
+
+        
+    
+    
+            marker_35fc93f32051117616c2adcbc3d27fc1.bindTooltip(
+                `<div>
+                     ('INS Shakti', nan, 'India', 'Tanker', 'Deepak', nan, '175 m (574 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_229f0aacb7f13ab56df688c24dd18d95 = L.marker(
+                [4.9765555, 74.48099],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_c25211c120fa064ded5fc943203f633f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_229f0aacb7f13ab56df688c24dd18d95.setIcon(icon_c25211c120fa064ded5fc943203f633f);
+        
+    
+        var popup_6fb70781c6bec9a1f892c9bd531a2f22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb49918cc76c5b3e0cb12a9d78e26468 = $(`<div id="html_bb49918cc76c5b3e0cb12a9d78e26468" style="width: 100.0%; height: 100.0%;">('INS Aditya', nan, 'India', 'Tanker', 'Deepak', nan, '172 m (564 ft)')</div>`)[0];
+                popup_6fb70781c6bec9a1f892c9bd531a2f22.setContent(html_bb49918cc76c5b3e0cb12a9d78e26468);
+            
+        
+
+        marker_229f0aacb7f13ab56df688c24dd18d95.bindPopup(popup_6fb70781c6bec9a1f892c9bd531a2f22)
+        ;
+
+        
+    
+    
+            marker_229f0aacb7f13ab56df688c24dd18d95.bindTooltip(
+                `<div>
+                     ('INS Aditya', nan, 'India', 'Tanker', 'Deepak', nan, '172 m (564 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb3fb2324bff42e1a3059bd1963958d8 = L.marker(
+                [21.061936, 88.0236771],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_27c832689c04ccbbf6e46109e61cb237 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fb3fb2324bff42e1a3059bd1963958d8.setIcon(icon_27c832689c04ccbbf6e46109e61cb237);
+        
+    
+        var popup_2e9ec3f10140a77e27f76ebce444026f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b3e64250ec80cd28624a343de1868204 = $(`<div id="html_b3e64250ec80cd28624a343de1868204" style="width: 100.0%; height: 100.0%;">('INS Jyoti', nan, 'India', 'Tanker', 'Komandarm', nan, '178 m (584 ft)')</div>`)[0];
+                popup_2e9ec3f10140a77e27f76ebce444026f.setContent(html_b3e64250ec80cd28624a343de1868204);
+            
+        
+
+        marker_fb3fb2324bff42e1a3059bd1963958d8.bindPopup(popup_2e9ec3f10140a77e27f76ebce444026f)
+        ;
+
+        
+    
+    
+            marker_fb3fb2324bff42e1a3059bd1963958d8.bindTooltip(
+                `<div>
+                     ('INS Jyoti', nan, 'India', 'Tanker', 'Komandarm', nan, '178 m (584 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2fc070b4f74169f96682be3d2bc7cf90 = L.marker(
+                [13.0835542, 85.2767408],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_b40c4d7973a3da1a1eca796d18382d8f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2fc070b4f74169f96682be3d2bc7cf90.setIcon(icon_b40c4d7973a3da1a1eca796d18382d8f);
+        
+    
+        var popup_429ef703ee7e75620c825f0433451fbf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b7db01bede38d58006d45e5970ecdb4 = $(`<div id="html_3b7db01bede38d58006d45e5970ecdb4" style="width: 100.0%; height: 100.0%;">('INS Magar', nan, 'India', 'LST', 'Magar', nan, '120 m (394 ft)')</div>`)[0];
+                popup_429ef703ee7e75620c825f0433451fbf.setContent(html_3b7db01bede38d58006d45e5970ecdb4);
+            
+        
+
+        marker_2fc070b4f74169f96682be3d2bc7cf90.bindPopup(popup_429ef703ee7e75620c825f0433451fbf)
+        ;
+
+        
+    
+    
+            marker_2fc070b4f74169f96682be3d2bc7cf90.bindTooltip(
+                `<div>
+                     ('INS Magar', nan, 'India', 'LST', 'Magar', nan, '120 m (394 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d1e0832615fd8bacf0d88849533b5dd = L.marker(
+                [21.7598098, 64.1675455],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_721dc02efc77372111c3aba43243413f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7d1e0832615fd8bacf0d88849533b5dd.setIcon(icon_721dc02efc77372111c3aba43243413f);
+        
+    
+        var popup_200ba45ce0df3cae1c472bd67500c067 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1acc22d01292a68d8010ed633d6f1c22 = $(`<div id="html_1acc22d01292a68d8010ed633d6f1c22" style="width: 100.0%; height: 100.0%;">('INS Shardul', nan, 'India', 'LST', 'Shardul', nan, '125 m (410 ft)')</div>`)[0];
+                popup_200ba45ce0df3cae1c472bd67500c067.setContent(html_1acc22d01292a68d8010ed633d6f1c22);
+            
+        
+
+        marker_7d1e0832615fd8bacf0d88849533b5dd.bindPopup(popup_200ba45ce0df3cae1c472bd67500c067)
+        ;
+
+        
+    
+    
+            marker_7d1e0832615fd8bacf0d88849533b5dd.bindTooltip(
+                `<div>
+                     ('INS Shardul', nan, 'India', 'LST', 'Shardul', nan, '125 m (410 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e3ffa56de6d0e3e6012359d7d4bee262 = L.marker(
+                [17.1386225, 83.1225031],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_863031b4e54ff0ea533a67e70f84e6de = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e3ffa56de6d0e3e6012359d7d4bee262.setIcon(icon_863031b4e54ff0ea533a67e70f84e6de);
+        
+    
+        var popup_9968d60af2b3311f028bedb2ee52fbf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a59737e6470550d11c539db43ea93038 = $(`<div id="html_a59737e6470550d11c539db43ea93038" style="width: 100.0%; height: 100.0%;">('INS Kesari', nan, 'India', 'LST', 'Shardul', nan, '125 m (409 ft)')</div>`)[0];
+                popup_9968d60af2b3311f028bedb2ee52fbf5.setContent(html_a59737e6470550d11c539db43ea93038);
+            
+        
+
+        marker_e3ffa56de6d0e3e6012359d7d4bee262.bindPopup(popup_9968d60af2b3311f028bedb2ee52fbf5)
+        ;
+
+        
+    
+    
+            marker_e3ffa56de6d0e3e6012359d7d4bee262.bindTooltip(
+                `<div>
+                     ('INS Kesari', nan, 'India', 'LST', 'Shardul', nan, '125 m (409 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c575a978da22475ed42b044ab5c783cf = L.marker(
+                [4.4563456, 71.9178649],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_a1dde7e3daf5a6cbe195f75cd98f7ac0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c575a978da22475ed42b044ab5c783cf.setIcon(icon_a1dde7e3daf5a6cbe195f75cd98f7ac0);
+        
+    
+        var popup_a17245b9ca876d4bd92870e6c8da81c5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_045d8b3945c5039ab7dd705ca9d2f5fa = $(`<div id="html_045d8b3945c5039ab7dd705ca9d2f5fa" style="width: 100.0%; height: 100.0%;">('INS Airavat', nan, 'India', 'LST', 'Shardul', nan, '125 m (410 ft)')</div>`)[0];
+                popup_a17245b9ca876d4bd92870e6c8da81c5.setContent(html_045d8b3945c5039ab7dd705ca9d2f5fa);
+            
+        
+
+        marker_c575a978da22475ed42b044ab5c783cf.bindPopup(popup_a17245b9ca876d4bd92870e6c8da81c5)
+        ;
+
+        
+    
+    
+            marker_c575a978da22475ed42b044ab5c783cf.bindTooltip(
+                `<div>
+                     ('INS Airavat', nan, 'India', 'LST', 'Shardul', nan, '125 m (410 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2105f7bcab794ec68e7c9a54806a5a9b = L.marker(
+                [7.798095, 91.692677],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_cfad83b67a4d065214f752bf5662ac71 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2105f7bcab794ec68e7c9a54806a5a9b.setIcon(icon_cfad83b67a4d065214f752bf5662ac71);
+        
+    
+        var popup_94cba547126b798ed597f34164f44029 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f9ca314abfd85b339a0fdfa6248c1da7 = $(`<div id="html_f9ca314abfd85b339a0fdfa6248c1da7" style="width: 100.0%; height: 100.0%;">('INS Cheetah', nan, 'India', 'LST', 'Kumbhir', nan, '84 m (275 ft)')</div>`)[0];
+                popup_94cba547126b798ed597f34164f44029.setContent(html_f9ca314abfd85b339a0fdfa6248c1da7);
+            
+        
+
+        marker_2105f7bcab794ec68e7c9a54806a5a9b.bindPopup(popup_94cba547126b798ed597f34164f44029)
+        ;
+
+        
+    
+    
+            marker_2105f7bcab794ec68e7c9a54806a5a9b.bindTooltip(
+                `<div>
+                     ('INS Cheetah', nan, 'India', 'LST', 'Kumbhir', nan, '84 m (275 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9131cad0407851229cd2d8c2e0f602dc = L.marker(
+                [19.0821978, 71.9710981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_20c0b84dabcb5f640f0c81c24f9f3a52 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9131cad0407851229cd2d8c2e0f602dc.setIcon(icon_20c0b84dabcb5f640f0c81c24f9f3a52);
+        
+    
+        var popup_d3ad0a3bd692d8fb750d8dcd39214167 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e134570f15e88a779b64197ccf32ed45 = $(`<div id="html_e134570f15e88a779b64197ccf32ed45" style="width: 100.0%; height: 100.0%;">('INS Guldar', nan, 'India', 'LST', 'Kumbhir', nan, '84 m (275 ft)')</div>`)[0];
+                popup_d3ad0a3bd692d8fb750d8dcd39214167.setContent(html_e134570f15e88a779b64197ccf32ed45);
+            
+        
+
+        marker_9131cad0407851229cd2d8c2e0f602dc.bindPopup(popup_d3ad0a3bd692d8fb750d8dcd39214167)
+        ;
+
+        
+    
+    
+            marker_9131cad0407851229cd2d8c2e0f602dc.bindTooltip(
+                `<div>
+                     ('INS Guldar', nan, 'India', 'LST', 'Kumbhir', nan, '84 m (275 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_98cf2321c62ea984f25a40c47d18faee = L.marker(
+                [8.7857009, 72.765666],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_b5bec2590a02fbae4f4f76a132fe8b30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_98cf2321c62ea984f25a40c47d18faee.setIcon(icon_b5bec2590a02fbae4f4f76a132fe8b30);
+        
+    
+        var popup_9a19abd6a745d837842939ccaccf4227 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0b4a9f3dd535e6ed2b95b6e1f3bf8114 = $(`<div id="html_0b4a9f3dd535e6ed2b95b6e1f3bf8114" style="width: 100.0%; height: 100.0%;">('INS Kumbhir', nan, 'India', 'LST', 'Kumbhir', nan, '84 m (275 ft)')</div>`)[0];
+                popup_9a19abd6a745d837842939ccaccf4227.setContent(html_0b4a9f3dd535e6ed2b95b6e1f3bf8114);
+            
+        
+
+        marker_98cf2321c62ea984f25a40c47d18faee.bindPopup(popup_9a19abd6a745d837842939ccaccf4227)
+        ;
+
+        
+    
+    
+            marker_98cf2321c62ea984f25a40c47d18faee.bindTooltip(
+                `<div>
+                     ('INS Kumbhir', nan, 'India', 'LST', 'Kumbhir', nan, '84 m (275 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9a6e747be5146e23dabbc86530423ac0 = L.marker(
+                [13.0835542, 80.5767408],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_904d517c00c846ed3ba52ae7733ce869 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9a6e747be5146e23dabbc86530423ac0.setIcon(icon_904d517c00c846ed3ba52ae7733ce869);
+        
+    
+        var popup_d61b82bc87b55bf37e1f12aeb84a45e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a126277d82a5977e85939829a2b2cfd3 = $(`<div id="html_a126277d82a5977e85939829a2b2cfd3" style="width: 100.0%; height: 100.0%;">('INS Talwar', nan, 'India', 'Frigate', 'Talwar', nan, '125 m (409 ft)')</div>`)[0];
+                popup_d61b82bc87b55bf37e1f12aeb84a45e8.setContent(html_a126277d82a5977e85939829a2b2cfd3);
+            
+        
+
+        marker_9a6e747be5146e23dabbc86530423ac0.bindPopup(popup_d61b82bc87b55bf37e1f12aeb84a45e8)
+        ;
+
+        
+    
+    
+            marker_9a6e747be5146e23dabbc86530423ac0.bindTooltip(
+                `<div>
+                     ('INS Talwar', nan, 'India', 'Frigate', 'Talwar', nan, '125 m (409 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f67fe2b56feb11f8c95ed299d5a4b15e = L.marker(
+                [19.0481978, 72.7410981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_f539ee4849fcb881bb816ff526a9ca6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f67fe2b56feb11f8c95ed299d5a4b15e.setIcon(icon_f539ee4849fcb881bb816ff526a9ca6f);
+        
+    
+        var popup_cc767e819ae0f0b80c66589e6218a152 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb31fd82e5ebbeb72348357dac8878a0 = $(`<div id="html_bb31fd82e5ebbeb72348357dac8878a0" style="width: 100.0%; height: 100.0%;">('INS Trishul', nan, 'India', 'Frigate', 'Talwar', nan, '125 m (409 ft)')</div>`)[0];
+                popup_cc767e819ae0f0b80c66589e6218a152.setContent(html_bb31fd82e5ebbeb72348357dac8878a0);
+            
+        
+
+        marker_f67fe2b56feb11f8c95ed299d5a4b15e.bindPopup(popup_cc767e819ae0f0b80c66589e6218a152)
+        ;
+
+        
+    
+    
+            marker_f67fe2b56feb11f8c95ed299d5a4b15e.bindTooltip(
+                `<div>
+                     ('INS Trishul', nan, 'India', 'Frigate', 'Talwar', nan, '125 m (409 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f44af22b74c9be7de3c850fc77df88d2 = L.marker(
+                [17.7386225, 83.3825031],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_e2a9d72ee718b069b9388edc677d9aa4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f44af22b74c9be7de3c850fc77df88d2.setIcon(icon_e2a9d72ee718b069b9388edc677d9aa4);
+        
+    
+        var popup_584dc0a2a8a4ce3014049bf7c8d82fdb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_548eca866b4eff81e51ba1982719c6ce = $(`<div id="html_548eca866b4eff81e51ba1982719c6ce" style="width: 100.0%; height: 100.0%;">('INS Teg', nan, 'India', 'Frigate', 'Talwar', nan, '125 m (409 ft)')</div>`)[0];
+                popup_584dc0a2a8a4ce3014049bf7c8d82fdb.setContent(html_548eca866b4eff81e51ba1982719c6ce);
+            
+        
+
+        marker_f44af22b74c9be7de3c850fc77df88d2.bindPopup(popup_584dc0a2a8a4ce3014049bf7c8d82fdb)
+        ;
+
+        
+    
+    
+            marker_f44af22b74c9be7de3c850fc77df88d2.bindTooltip(
+                `<div>
+                     ('INS Teg', nan, 'India', 'Frigate', 'Talwar', nan, '125 m (409 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3b1f075fccfd317dadd84f29a1be4cf6 = L.marker(
+                [9.7823428, 76.1608452],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_c1a01aed8f15e1e006bf5984178cdc30 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3b1f075fccfd317dadd84f29a1be4cf6.setIcon(icon_c1a01aed8f15e1e006bf5984178cdc30);
+        
+    
+        var popup_30f3fe53b9bc41ac1ee2b63e365c0615 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c6ac80821289dce43d0523b4fbcf43b = $(`<div id="html_8c6ac80821289dce43d0523b4fbcf43b" style="width: 100.0%; height: 100.0%;">('INS Tarkash', nan, 'India', 'Frigate', 'Talwar', nan, '125 m (409 ft)')</div>`)[0];
+                popup_30f3fe53b9bc41ac1ee2b63e365c0615.setContent(html_8c6ac80821289dce43d0523b4fbcf43b);
+            
+        
+
+        marker_3b1f075fccfd317dadd84f29a1be4cf6.bindPopup(popup_30f3fe53b9bc41ac1ee2b63e365c0615)
+        ;
+
+        
+    
+    
+            marker_3b1f075fccfd317dadd84f29a1be4cf6.bindTooltip(
+                `<div>
+                     ('INS Tarkash', nan, 'India', 'Frigate', 'Talwar', nan, '125 m (409 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f48b92de5bae5e28601aa45c3d5d25fa = L.marker(
+                [10.661984, 95.5389112],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_e8d2af6a06511e1b484fec83ecec2a64 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f48b92de5bae5e28601aa45c3d5d25fa.setIcon(icon_e8d2af6a06511e1b484fec83ecec2a64);
+        
+    
+        var popup_4868231a9da16496a8c5524fc61c8ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a20c41da3ccc37936a2455d5dff93f88 = $(`<div id="html_a20c41da3ccc37936a2455d5dff93f88" style="width: 100.0%; height: 100.0%;">('INS Trikand', nan, 'India', 'Frigate', 'Talwar', nan, '125 m (409 ft)')</div>`)[0];
+                popup_4868231a9da16496a8c5524fc61c8ca1.setContent(html_a20c41da3ccc37936a2455d5dff93f88);
+            
+        
+
+        marker_f48b92de5bae5e28601aa45c3d5d25fa.bindPopup(popup_4868231a9da16496a8c5524fc61c8ca1)
+        ;
+
+        
+    
+    
+            marker_f48b92de5bae5e28601aa45c3d5d25fa.bindTooltip(
+                `<div>
+                     ('INS Trikand', nan, 'India', 'Frigate', 'Talwar', nan, '125 m (409 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2ad6b5c2868c04fe1c1a85f81495f2cd = L.marker(
+                [17.332368, 69.19114],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_f09b366e32f67a4d02a554f37496ab95 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2ad6b5c2868c04fe1c1a85f81495f2cd.setIcon(icon_f09b366e32f67a4d02a554f37496ab95);
+        
+    
+        var popup_7757cfd7bf0f46b6e192903c13ab174e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92e5e43beca45d2c4224643c7c806a57 = $(`<div id="html_92e5e43beca45d2c4224643c7c806a57" style="width: 100.0%; height: 100.0%;">('INS Saryu', 'P54', 'India', 'OPV', 'Saryu', '25 knots (46 km/h)', '105 m (344 ft)')</div>`)[0];
+                popup_7757cfd7bf0f46b6e192903c13ab174e.setContent(html_92e5e43beca45d2c4224643c7c806a57);
+            
+        
+
+        marker_2ad6b5c2868c04fe1c1a85f81495f2cd.bindPopup(popup_7757cfd7bf0f46b6e192903c13ab174e)
+        ;
+
+        
+    
+    
+            marker_2ad6b5c2868c04fe1c1a85f81495f2cd.bindTooltip(
+                `<div>
+                     ('INS Saryu', 'P54', 'India', 'OPV', 'Saryu', '25 knots (46 km/h)', '105 m (344 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b696d81190255516ad3683f51258736a = L.marker(
+                [14.5582011, 71.7719996],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_b75d1a767ae65bc87b515f12e9f932a1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b696d81190255516ad3683f51258736a.setIcon(icon_b75d1a767ae65bc87b515f12e9f932a1);
+        
+    
+        var popup_707d65c1aeddf0acce4e29702a9d2fda = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7eee0886e85d5adc73b00bca62028d9 = $(`<div id="html_c7eee0886e85d5adc73b00bca62028d9" style="width: 100.0%; height: 100.0%;">('INS Sunayna', 'P57', 'India', 'OPV', 'Saryu', '25 knots (46 km/h)', '105Â\xa0m (344Â\xa0ft)')</div>`)[0];
+                popup_707d65c1aeddf0acce4e29702a9d2fda.setContent(html_c7eee0886e85d5adc73b00bca62028d9);
+            
+        
+
+        marker_b696d81190255516ad3683f51258736a.bindPopup(popup_707d65c1aeddf0acce4e29702a9d2fda)
+        ;
+
+        
+    
+    
+            marker_b696d81190255516ad3683f51258736a.bindTooltip(
+                `<div>
+                     ('INS Sunayna', 'P57', 'India', 'OPV', 'Saryu', '25 knots (46 km/h)', '105Â\xa0m (344Â\xa0ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_905b311319aa107a628f717c1d785f7f = L.marker(
+                [12.2644812, 82.3661734],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_161c11a8aa57f288404e6d46ef5fb22d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_905b311319aa107a628f717c1d785f7f.setIcon(icon_161c11a8aa57f288404e6d46ef5fb22d);
+        
+    
+        var popup_bf8a2eabf44be27b85a8d6c4eed55de6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0adbf59034f88e3de21296586cac0a7 = $(`<div id="html_e0adbf59034f88e3de21296586cac0a7" style="width: 100.0%; height: 100.0%;">('INS Sumedha', 'P58', 'India', 'OPV', 'Saryu', '25 knots (46 km/h)', '105 m (344 ft)')</div>`)[0];
+                popup_bf8a2eabf44be27b85a8d6c4eed55de6.setContent(html_e0adbf59034f88e3de21296586cac0a7);
+            
+        
+
+        marker_905b311319aa107a628f717c1d785f7f.bindPopup(popup_bf8a2eabf44be27b85a8d6c4eed55de6)
+        ;
+
+        
+    
+    
+            marker_905b311319aa107a628f717c1d785f7f.bindTooltip(
+                `<div>
+                     ('INS Sumedha', 'P58', 'India', 'OPV', 'Saryu', '25 knots (46 km/h)', '105 m (344 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aaeae903be351e4643ce87b7b15a082f = L.marker(
+                [17.983692, 87.671275],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_4c2b115a8d684b64dc7ba58f831df992 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_aaeae903be351e4643ce87b7b15a082f.setIcon(icon_4c2b115a8d684b64dc7ba58f831df992);
+        
+    
+        var popup_f99865d15475ff91e131b23b9d38dfd2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a33653d37c87ef2fa54b2c983dc80c5e = $(`<div id="html_a33653d37c87ef2fa54b2c983dc80c5e" style="width: 100.0%; height: 100.0%;">('INS Sumitra', 'P59', 'India', 'OPV', 'Saryu', '25 knots (46 km/h)', '105Â\xa0m (344Â\xa0ft)')</div>`)[0];
+                popup_f99865d15475ff91e131b23b9d38dfd2.setContent(html_a33653d37c87ef2fa54b2c983dc80c5e);
+            
+        
+
+        marker_aaeae903be351e4643ce87b7b15a082f.bindPopup(popup_f99865d15475ff91e131b23b9d38dfd2)
+        ;
+
+        
+    
+    
+            marker_aaeae903be351e4643ce87b7b15a082f.bindTooltip(
+                `<div>
+                     ('INS Sumitra', 'P59', 'India', 'OPV', 'Saryu', '25 knots (46 km/h)', '105Â\xa0m (344Â\xa0ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9573086ccfe73bb71867df959b804c18 = L.marker(
+                [19.01978, 72.7981],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_ac958ec8fb911b8f464f550e81699ffc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9573086ccfe73bb71867df959b804c18.setIcon(icon_ac958ec8fb911b8f464f550e81699ffc);
+        
+    
+        var popup_c822035c0f51a0d462a09bdf7149eae9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf5527a855a2370ff2838b2bd0734302 = $(`<div id="html_bf5527a855a2370ff2838b2bd0734302" style="width: 100.0%; height: 100.0%;">('INS Sukanya', 'P50', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')</div>`)[0];
+                popup_c822035c0f51a0d462a09bdf7149eae9.setContent(html_bf5527a855a2370ff2838b2bd0734302);
+            
+        
+
+        marker_9573086ccfe73bb71867df959b804c18.bindPopup(popup_c822035c0f51a0d462a09bdf7149eae9)
+        ;
+
+        
+    
+    
+            marker_9573086ccfe73bb71867df959b804c18.bindTooltip(
+                `<div>
+                     ('INS Sukanya', 'P50', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_709295c0922f25e1ea0f77e8237e8fbc = L.marker(
+                [19.0132978, 72.796581],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_f3e61a57e19a887dfd96ddccc1b5f635 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_709295c0922f25e1ea0f77e8237e8fbc.setIcon(icon_f3e61a57e19a887dfd96ddccc1b5f635);
+        
+    
+        var popup_c41648a490dee9420307c4a9c8e4ac54 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a39d3e9947192b09c1fd6862a5772e79 = $(`<div id="html_a39d3e9947192b09c1fd6862a5772e79" style="width: 100.0%; height: 100.0%;">('INS Subhadra', 'P51', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')</div>`)[0];
+                popup_c41648a490dee9420307c4a9c8e4ac54.setContent(html_a39d3e9947192b09c1fd6862a5772e79);
+            
+        
+
+        marker_709295c0922f25e1ea0f77e8237e8fbc.bindPopup(popup_c41648a490dee9420307c4a9c8e4ac54)
+        ;
+
+        
+    
+    
+            marker_709295c0922f25e1ea0f77e8237e8fbc.bindTooltip(
+                `<div>
+                     ('INS Subhadra', 'P51', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_28952ed39b6f8bcc230b28dba1863efc = L.marker(
+                [19.01378, 72.796581],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_6036abf3deaa33d9b004fb3e4d9c85ce = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_28952ed39b6f8bcc230b28dba1863efc.setIcon(icon_6036abf3deaa33d9b004fb3e4d9c85ce);
+        
+    
+        var popup_12a46e736a963c654e857291fe161448 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_205822b6dc20da6faab7c91eea926467 = $(`<div id="html_205822b6dc20da6faab7c91eea926467" style="width: 100.0%; height: 100.0%;">('INS Suvarna', 'P52', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')</div>`)[0];
+                popup_12a46e736a963c654e857291fe161448.setContent(html_205822b6dc20da6faab7c91eea926467);
+            
+        
+
+        marker_28952ed39b6f8bcc230b28dba1863efc.bindPopup(popup_12a46e736a963c654e857291fe161448)
+        ;
+
+        
+    
+    
+            marker_28952ed39b6f8bcc230b28dba1863efc.bindTooltip(
+                `<div>
+                     ('INS Suvarna', 'P52', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c1fd93e78f2b63d2b62e44dcdd544b92 = L.marker(
+                [17.76225, 83.38031],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_ef57ba444f936be2b6512ce27f633a6a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c1fd93e78f2b63d2b62e44dcdd544b92.setIcon(icon_ef57ba444f936be2b6512ce27f633a6a);
+        
+    
+        var popup_a2e9e95f3fc9f35ee3887b1d5f76a092 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e6990872355d08df0c3b71b763a29f42 = $(`<div id="html_e6990872355d08df0c3b71b763a29f42" style="width: 100.0%; height: 100.0%;">('INS Savitri', 'P53', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')</div>`)[0];
+                popup_a2e9e95f3fc9f35ee3887b1d5f76a092.setContent(html_e6990872355d08df0c3b71b763a29f42);
+            
+        
+
+        marker_c1fd93e78f2b63d2b62e44dcdd544b92.bindPopup(popup_a2e9e95f3fc9f35ee3887b1d5f76a092)
+        ;
+
+        
+    
+    
+            marker_c1fd93e78f2b63d2b62e44dcdd544b92.bindTooltip(
+                `<div>
+                     ('INS Savitri', 'P53', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_aaa984e8a78684593a4ba3ecf69af776 = L.marker(
+                [4.45345, 71.98649],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_a361303282bb7959b73b90b2702a7687 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_aaa984e8a78684593a4ba3ecf69af776.setIcon(icon_a361303282bb7959b73b90b2702a7687);
+        
+    
+        var popup_dc10983ad387121a474857f28ebdbe19 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7e2f02e84cc8f1e303d04fdb4e5c1fa = $(`<div id="html_a7e2f02e84cc8f1e303d04fdb4e5c1fa" style="width: 100.0%; height: 100.0%;">('INS Sharada', 'P55', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')</div>`)[0];
+                popup_dc10983ad387121a474857f28ebdbe19.setContent(html_a7e2f02e84cc8f1e303d04fdb4e5c1fa);
+            
+        
+
+        marker_aaa984e8a78684593a4ba3ecf69af776.bindPopup(popup_dc10983ad387121a474857f28ebdbe19)
+        ;
+
+        
+    
+    
+            marker_aaa984e8a78684593a4ba3ecf69af776.bindTooltip(
+                `<div>
+                     ('INS Sharada', 'P55', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bd6b62d69add0b4ec1e69f687633792b = L.marker(
+                [4.45456, 71.917864],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_10cbb9f9926ebe568526cd8f32c150f8 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bd6b62d69add0b4ec1e69f687633792b.setIcon(icon_10cbb9f9926ebe568526cd8f32c150f8);
+        
+    
+        var popup_496b2382c1c7d25797b1d11b9162d5d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1c1c1da99b40cc315d5e70fcb508b1e = $(`<div id="html_e1c1c1da99b40cc315d5e70fcb508b1e" style="width: 100.0%; height: 100.0%;">('INS Sujata', 'P56', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')</div>`)[0];
+                popup_496b2382c1c7d25797b1d11b9162d5d0.setContent(html_e1c1c1da99b40cc315d5e70fcb508b1e);
+            
+        
+
+        marker_bd6b62d69add0b4ec1e69f687633792b.bindPopup(popup_496b2382c1c7d25797b1d11b9162d5d0)
+        ;
+
+        
+    
+    
+            marker_bd6b62d69add0b4ec1e69f687633792b.bindTooltip(
+                `<div>
+                     ('INS Sujata', 'P56', 'India', 'OPV', 'Sukanya', '21 knots (39Â\xa0km/h)', '101 m (331 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f8be9a48e8e0fb62025845ad6d4497c6 = L.marker(
+                [38.8936708, -77.1546618],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_59acec3435a0250f4f4d09a810242cbb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f8be9a48e8e0fb62025845ad6d4497c6.setIcon(icon_59acec3435a0250f4f4d09a810242cbb);
+        
+    
+        var popup_6f2824e9d83281d0798a7cf73481abe8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f1ac1a5c3473c923c199d51d6fa5c3ea = $(`<div id="html_f1ac1a5c3473c923c199d51d6fa5c3ea" style="width: 100.0%; height: 100.0%;">('USS Abraham Lincoln', 'CVN-72', 'US', 'Aircraft carrier', 'Nimitz', '30Â\xa0kn (56Â\xa0km/h; 35Â\xa0mph)', '332.8 m')</div>`)[0];
+                popup_6f2824e9d83281d0798a7cf73481abe8.setContent(html_f1ac1a5c3473c923c199d51d6fa5c3ea);
+            
+        
+
+        marker_f8be9a48e8e0fb62025845ad6d4497c6.bindPopup(popup_6f2824e9d83281d0798a7cf73481abe8)
+        ;
+
+        
+    
+    
+            marker_f8be9a48e8e0fb62025845ad6d4497c6.bindTooltip(
+                `<div>
+                     ('USS Abraham Lincoln', 'CVN-72', 'US', 'Aircraft carrier', 'Nimitz', '30Â\xa0kn (56Â\xa0km/h; 35Â\xa0mph)', '332.8 m')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_a4ef285e049aa4dc2b16857dd236066d = L.marker(
+                [36.626212, -6.3861167],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_0f0b6e7d68d1bb68d1acfc35ef9db831 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_a4ef285e049aa4dc2b16857dd236066d.setIcon(icon_0f0b6e7d68d1bb68d1acfc35ef9db831);
+        
+    
+        var popup_76432a032671e250b130fe1f0764640a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c3f1b0cfbf335decec7200cae1e1920 = $(`<div id="html_4c3f1b0cfbf335decec7200cae1e1920" style="width: 100.0%; height: 100.0%;">('USS Arleigh Burke', 'DDG-51', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m)\n')</div>`)[0];
+                popup_76432a032671e250b130fe1f0764640a.setContent(html_4c3f1b0cfbf335decec7200cae1e1920);
+            
+        
+
+        marker_a4ef285e049aa4dc2b16857dd236066d.bindPopup(popup_76432a032671e250b130fe1f0764640a)
+        ;
+
+        
+    
+    
+            marker_a4ef285e049aa4dc2b16857dd236066d.bindTooltip(
+                `<div>
+                     ('USS Arleigh Burke', 'DDG-51', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m)\n')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0653ad9de82318618045c9e7d195b5ad = L.marker(
+                [52.6727141, 0.389087],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_e610a5d371c4bc3ccf4a164c573955eb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0653ad9de82318618045c9e7d195b5ad.setIcon(icon_e610a5d371c4bc3ccf4a164c573955eb);
+        
+    
+        var popup_a1b29e74029cf306d8846dbca341716f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7f9e7e1929088f711a8a7e9a00a07258 = $(`<div id="html_7f9e7e1929088f711a8a7e9a00a07258" style="width: 100.0%; height: 100.0%;">('USS Bainbridge', 'DDG-96', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '509 ft 6 in (155.3 m)\n')</div>`)[0];
+                popup_a1b29e74029cf306d8846dbca341716f.setContent(html_7f9e7e1929088f711a8a7e9a00a07258);
+            
+        
+
+        marker_0653ad9de82318618045c9e7d195b5ad.bindPopup(popup_a1b29e74029cf306d8846dbca341716f)
+        ;
+
+        
+    
+    
+            marker_0653ad9de82318618045c9e7d195b5ad.bindTooltip(
+                `<div>
+                     ('USS Bainbridge', 'DDG-96', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '509 ft 6 in (155.3 m)\n')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_58523fa39adbf5e052f662ed6c235a97 = L.marker(
+                [35.2601108, 139.5915011],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_deb354d28a4a7f229346d185f8ad6007 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_58523fa39adbf5e052f662ed6c235a97.setIcon(icon_deb354d28a4a7f229346d185f8ad6007);
+        
+    
+        var popup_a7b5c597dce971f61a0279b41ea2305e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a11feb4a63167747682575c27f7579d2 = $(`<div id="html_a11feb4a63167747682575c27f7579d2" style="width: 100.0%; height: 100.0%;">('USS Barry ', '\nDDG-52', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '509 ft 6 in (155.3 m) ')</div>`)[0];
+                popup_a7b5c597dce971f61a0279b41ea2305e.setContent(html_a11feb4a63167747682575c27f7579d2);
+            
+        
+
+        marker_58523fa39adbf5e052f662ed6c235a97.bindPopup(popup_a7b5c597dce971f61a0279b41ea2305e)
+        ;
+
+        
+    
+    
+            marker_58523fa39adbf5e052f662ed6c235a97.bindTooltip(
+                `<div>
+                     ('USS Barry ', '\nDDG-52', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '509 ft 6 in (155.3 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c11c39f57e316c6c364322ea2ddb10f0 = L.marker(
+                [35.2601108, 139.5915011],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_38c42bd4103952b6ef948982314a77cd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c11c39f57e316c6c364322ea2ddb10f0.setIcon(icon_38c42bd4103952b6ef948982314a77cd);
+        
+    
+        var popup_e0fb6bb838221b405bc28b5c5c7d9c49 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e079720d81c5c841777635ced13d8f4f = $(`<div id="html_e079720d81c5c841777635ced13d8f4f" style="width: 100.0%; height: 100.0%;">('USS Benfold', 'DDG-65', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft 6 in (154 m) ')</div>`)[0];
+                popup_e0fb6bb838221b405bc28b5c5c7d9c49.setContent(html_e079720d81c5c841777635ced13d8f4f);
+            
+        
+
+        marker_c11c39f57e316c6c364322ea2ddb10f0.bindPopup(popup_e0fb6bb838221b405bc28b5c5c7d9c49)
+        ;
+
+        
+    
+    
+            marker_c11c39f57e316c6c364322ea2ddb10f0.bindTooltip(
+                `<div>
+                     ('USS Benfold', 'DDG-65', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft 6 in (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0574f521452ab690fbd24cf87da3993e = L.marker(
+                [52.6727141, 0.389087],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_abdda8c259cb45ec6552dee6600bb08f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0574f521452ab690fbd24cf87da3993e.setIcon(icon_abdda8c259cb45ec6552dee6600bb08f);
+        
+    
+        var popup_48f92187391f993851da7e35ad957f41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8ccd022ee8b6b3772ea93ec5f9553ad6 = $(`<div id="html_8ccd022ee8b6b3772ea93ec5f9553ad6" style="width: 100.0%; height: 100.0%;">('USS Bulkeley', 'DDG-84', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '511 ft 6 in (155.3 m) ')</div>`)[0];
+                popup_48f92187391f993851da7e35ad957f41.setContent(html_8ccd022ee8b6b3772ea93ec5f9553ad6);
+            
+        
+
+        marker_0574f521452ab690fbd24cf87da3993e.bindPopup(popup_48f92187391f993851da7e35ad957f41)
+        ;
+
+        
+    
+    
+            marker_0574f521452ab690fbd24cf87da3993e.bindTooltip(
+                `<div>
+                     ('USS Bulkeley', 'DDG-84', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '511 ft 6 in (155.3 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7d387a6ab49d2121643cfdeb3e75bc9f = L.marker(
+                [30.3886194, -81.4087041],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_844529918a71cbaad94447d3343286ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7d387a6ab49d2121643cfdeb3e75bc9f.setIcon(icon_844529918a71cbaad94447d3343286ea);
+        
+    
+        var popup_a8114d2f72fb7868a8265d1af6f6440a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c741a7c355b4b84498fa5e6603a55a8 = $(`<div id="html_1c741a7c355b4b84498fa5e6603a55a8" style="width: 100.0%; height: 100.0%;">('USS Carney', 'DDG-64', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft 6 in (154 m) ')</div>`)[0];
+                popup_a8114d2f72fb7868a8265d1af6f6440a.setContent(html_1c741a7c355b4b84498fa5e6603a55a8);
+            
+        
+
+        marker_7d387a6ab49d2121643cfdeb3e75bc9f.bindPopup(popup_a8114d2f72fb7868a8265d1af6f6440a)
+        ;
+
+        
+    
+    
+            marker_7d387a6ab49d2121643cfdeb3e75bc9f.bindTooltip(
+                `<div>
+                     ('USS Carney', 'DDG-64', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft 6 in (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3116f7a814785a84aff1014b4433554f = L.marker(
+                [21.3548578, -158.0118351],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_9ecd5ff25a147721e53d196b532a3ec6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3116f7a814785a84aff1014b4433554f.setIcon(icon_9ecd5ff25a147721e53d196b532a3ec6);
+        
+    
+        var popup_d317f9c2ee3dc03994a443bef9601e29 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a40cd21eea1eeeedc8605f362fa164ec = $(`<div id="html_a40cd21eea1eeeedc8605f362fa164ec" style="width: 100.0%; height: 100.0%;">('USS Chafee', 'DDG-90', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '509 ft 6 in (155.3 m) ')</div>`)[0];
+                popup_d317f9c2ee3dc03994a443bef9601e29.setContent(html_a40cd21eea1eeeedc8605f362fa164ec);
+            
+        
+
+        marker_3116f7a814785a84aff1014b4433554f.bindPopup(popup_d317f9c2ee3dc03994a443bef9601e29)
+        ;
+
+        
+    
+    
+            marker_3116f7a814785a84aff1014b4433554f.bindTooltip(
+                `<div>
+                     ('USS Chafee', 'DDG-90', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '509 ft 6 in (155.3 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d246cf69843f3ea7f1507cffa4f9d1ff = L.marker(
+                [30.3886194, -81.4087041],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_eb798404a697dead126756fc46720a76 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d246cf69843f3ea7f1507cffa4f9d1ff.setIcon(icon_eb798404a697dead126756fc46720a76);
+        
+    
+        var popup_357180a0700f77cb30f49bfdbec5e98c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_739516c650bb852628f920bbe71835cf = $(`<div id="html_739516c650bb852628f920bbe71835cf" style="width: 100.0%; height: 100.0%;">('USS Cole', 'DDG-67', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m) ')</div>`)[0];
+                popup_357180a0700f77cb30f49bfdbec5e98c.setContent(html_739516c650bb852628f920bbe71835cf);
+            
+        
+
+        marker_d246cf69843f3ea7f1507cffa4f9d1ff.bindPopup(popup_357180a0700f77cb30f49bfdbec5e98c)
+        ;
+
+        
+    
+    
+            marker_d246cf69843f3ea7f1507cffa4f9d1ff.bindTooltip(
+                `<div>
+                     ('USS Cole', 'DDG-67', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7c6bde8a750ae8426ba09621985f3dbe = L.marker(
+                [32.8242404, -117.3891737],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_0ba9b78d868421e20dc4d9ba617990dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7c6bde8a750ae8426ba09621985f3dbe.setIcon(icon_0ba9b78d868421e20dc4d9ba617990dd);
+        
+    
+        var popup_f48f8cb64fb9ede62a1e5d9cc44daa3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3ff5d09bd66dfc9aa895d1bbddd8f42d = $(`<div id="html_3ff5d09bd66dfc9aa895d1bbddd8f42d" style="width: 100.0%; height: 100.0%;">('USS Curtis Wilbur', 'DDG-54', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m) ')</div>`)[0];
+                popup_f48f8cb64fb9ede62a1e5d9cc44daa3c.setContent(html_3ff5d09bd66dfc9aa895d1bbddd8f42d);
+            
+        
+
+        marker_7c6bde8a750ae8426ba09621985f3dbe.bindPopup(popup_f48f8cb64fb9ede62a1e5d9cc44daa3c)
+        ;
+
+        
+    
+    
+            marker_7c6bde8a750ae8426ba09621985f3dbe.bindTooltip(
+                `<div>
+                     ('USS Curtis Wilbur', 'DDG-54', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1f6ce65109c87a490df3ddc0ac16ed5 = L.marker(
+                [21.3548578, -158.0118351],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_52475f4e53e63a9e6f822bb60cefdf61 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e1f6ce65109c87a490df3ddc0ac16ed5.setIcon(icon_52475f4e53e63a9e6f822bb60cefdf61);
+        
+    
+        var popup_2f53577b652234c559616e3403aa31c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a11b3b1de8b9f0bcb4d417f128447e5a = $(`<div id="html_a11b3b1de8b9f0bcb4d417f128447e5a" style="width: 100.0%; height: 100.0%;">('USS Daniel Inouye', 'DDG-118', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '513 ft (156 m) ')</div>`)[0];
+                popup_2f53577b652234c559616e3403aa31c3.setContent(html_a11b3b1de8b9f0bcb4d417f128447e5a);
+            
+        
+
+        marker_e1f6ce65109c87a490df3ddc0ac16ed5.bindPopup(popup_2f53577b652234c559616e3403aa31c3)
+        ;
+
+        
+    
+    
+            marker_e1f6ce65109c87a490df3ddc0ac16ed5.bindTooltip(
+                `<div>
+                     ('USS Daniel Inouye', 'DDG-118', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '513 ft (156 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d89ab76b6197fba1b5db33367a77e912 = L.marker(
+                [32.8242404, -117.3891737],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_f1e172c03a32f341d159857ce18e8f03 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d89ab76b6197fba1b5db33367a77e912.setIcon(icon_f1e172c03a32f341d159857ce18e8f03);
+        
+    
+        var popup_c694adde0ef61c003799ec53050ef975 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f78dfe9321821ab9efa292d5246709cf = $(`<div id="html_f78dfe9321821ab9efa292d5246709cf" style="width: 100.0%; height: 100.0%;">('USS Decatur', 'DDG-73', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '514 ft (156 m) ')</div>`)[0];
+                popup_c694adde0ef61c003799ec53050ef975.setContent(html_f78dfe9321821ab9efa292d5246709cf);
+            
+        
+
+        marker_d89ab76b6197fba1b5db33367a77e912.bindPopup(popup_c694adde0ef61c003799ec53050ef975)
+        ;
+
+        
+    
+    
+            marker_d89ab76b6197fba1b5db33367a77e912.bindTooltip(
+                `<div>
+                     ('USS Decatur', 'DDG-73', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '514 ft (156 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b6358e2ddb600cc08aa16f7958564104 = L.marker(
+                [35.2601108, 139.5915011],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_2932156934f3f4631096462c3ea3b470 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b6358e2ddb600cc08aa16f7958564104.setIcon(icon_2932156934f3f4631096462c3ea3b470);
+        
+    
+        var popup_728dc6e4632d0f714889060374605121 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de376d30778a1e7dcc24401f8de1b107 = $(`<div id="html_de376d30778a1e7dcc24401f8de1b107" style="width: 100.0%; height: 100.0%;">('USS Dewey', 'DDG-105', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m) ')</div>`)[0];
+                popup_728dc6e4632d0f714889060374605121.setContent(html_de376d30778a1e7dcc24401f8de1b107);
+            
+        
+
+        marker_b6358e2ddb600cc08aa16f7958564104.bindPopup(popup_728dc6e4632d0f714889060374605121)
+        ;
+
+        
+    
+    
+            marker_b6358e2ddb600cc08aa16f7958564104.bindTooltip(
+                `<div>
+                     ('USS Dewey', 'DDG-105', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e769b1d4d41b26992a90320a1ecba6b8 = L.marker(
+                [30.3886194, -81.4087041],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_7e43a2d301ea9aa50fc6fd4848cbf3ca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e769b1d4d41b26992a90320a1ecba6b8.setIcon(icon_7e43a2d301ea9aa50fc6fd4848cbf3ca);
+        
+    
+        var popup_b42e2a765bbad35a2de64795831abffb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4e6f4c7d26f353896fe61a2797a1266 = $(`<div id="html_c4e6f4c7d26f353896fe61a2797a1266" style="width: 100.0%; height: 100.0%;">('USS Donald Cook', 'DDG-75', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m) ')</div>`)[0];
+                popup_b42e2a765bbad35a2de64795831abffb.setContent(html_c4e6f4c7d26f353896fe61a2797a1266);
+            
+        
+
+        marker_e769b1d4d41b26992a90320a1ecba6b8.bindPopup(popup_b42e2a765bbad35a2de64795831abffb)
+        ;
+
+        
+    
+    
+            marker_e769b1d4d41b26992a90320a1ecba6b8.bindTooltip(
+                `<div>
+                     ('USS Donald Cook', 'DDG-75', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_503665ad1247530c41be3b4fac264b28 = L.marker(
+                [32.8242404, -117.3891737],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_05e1cad305ca42db0505cb6a492ca20c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_503665ad1247530c41be3b4fac264b28.setIcon(icon_05e1cad305ca42db0505cb6a492ca20c);
+        
+    
+        var popup_1ab99aeaf7650d931e4ecfb63628dd67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5832c33cd4aab38f48c64a7b9fefff2a = $(`<div id="html_5832c33cd4aab38f48c64a7b9fefff2a" style="width: 100.0%; height: 100.0%;">('USS Fitzgerald', 'DDG-62', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '506 ft (154 m) ')</div>`)[0];
+                popup_1ab99aeaf7650d931e4ecfb63628dd67.setContent(html_5832c33cd4aab38f48c64a7b9fefff2a);
+            
+        
+
+        marker_503665ad1247530c41be3b4fac264b28.bindPopup(popup_1ab99aeaf7650d931e4ecfb63628dd67)
+        ;
+
+        
+    
+    
+            marker_503665ad1247530c41be3b4fac264b28.bindTooltip(
+                `<div>
+                     ('USS Fitzgerald', 'DDG-62', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '506 ft (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fb7c75a1c46a98e9d7b01b82a5c9eda3 = L.marker(
+                [52.6727141, 0.389087],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_713043b816cf01558f3737eeec2037c4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fb7c75a1c46a98e9d7b01b82a5c9eda3.setIcon(icon_713043b816cf01558f3737eeec2037c4);
+        
+    
+        var popup_360eae8bc1df70fb058c4f38358281be = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3367dcd27f00ae6fce633ac6b00b33be = $(`<div id="html_3367dcd27f00ae6fce633ac6b00b33be" style="width: 100.0%; height: 100.0%;">('USS Forrest Sherman ', 'DDG-98', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '507 ft (154 m) ')</div>`)[0];
+                popup_360eae8bc1df70fb058c4f38358281be.setContent(html_3367dcd27f00ae6fce633ac6b00b33be);
+            
+        
+
+        marker_fb7c75a1c46a98e9d7b01b82a5c9eda3.bindPopup(popup_360eae8bc1df70fb058c4f38358281be)
+        ;
+
+        
+    
+    
+            marker_fb7c75a1c46a98e9d7b01b82a5c9eda3.bindTooltip(
+                `<div>
+                     ('USS Forrest Sherman ', 'DDG-98', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '507 ft (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_56665129b14adc0641c968c0b0b4e8e8 = L.marker(
+                [21.3548578, -158.0118351],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_4859b7bc04c7d2062a6cedba47d93a89 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_56665129b14adc0641c968c0b0b4e8e8.setIcon(icon_4859b7bc04c7d2062a6cedba47d93a89);
+        
+    
+        var popup_ee25916b321717943d7d5d54dd85eaa9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_23da481f42b254ad32c5c943a7011224 = $(`<div id="html_23da481f42b254ad32c5c943a7011224" style="width: 100.0%; height: 100.0%;">('USS Hopper', 'DDG-70', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m) ')</div>`)[0];
+                popup_ee25916b321717943d7d5d54dd85eaa9.setContent(html_23da481f42b254ad32c5c943a7011224);
+            
+        
+
+        marker_56665129b14adc0641c968c0b0b4e8e8.bindPopup(popup_ee25916b321717943d7d5d54dd85eaa9)
+        ;
+
+        
+    
+    
+            marker_56665129b14adc0641c968c0b0b4e8e8.bindTooltip(
+                `<div>
+                     ('USS Hopper', 'DDG-70', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '505 ft (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_39ad41cfa6f778b7dac7625dc824a939 = L.marker(
+                [35.2601108, 139.5915011],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_b72295aa1d732562f33dcca6b924f403 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_39ad41cfa6f778b7dac7625dc824a939.setIcon(icon_b72295aa1d732562f33dcca6b924f403);
+        
+    
+        var popup_263ddff25bac47569d961e1e12014145 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0cc58022a5955133570d1fa30edfe959 = $(`<div id="html_0cc58022a5955133570d1fa30edfe959" style="width: 100.0%; height: 100.0%;">('USS Higgins', 'DDG-76', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '506 ft (154 m) ')</div>`)[0];
+                popup_263ddff25bac47569d961e1e12014145.setContent(html_0cc58022a5955133570d1fa30edfe959);
+            
+        
+
+        marker_39ad41cfa6f778b7dac7625dc824a939.bindPopup(popup_263ddff25bac47569d961e1e12014145)
+        ;
+
+        
+    
+    
+            marker_39ad41cfa6f778b7dac7625dc824a939.bindTooltip(
+                `<div>
+                     ('USS Higgins', 'DDG-76', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '506 ft (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f711fa440539a1bf4e33d48744be28b8 = L.marker(
+                [21.3548578, -158.0118351],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_eb1009961e391ee75838cf4fbb0b5537 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f711fa440539a1bf4e33d48744be28b8.setIcon(icon_eb1009961e391ee75838cf4fbb0b5537);
+        
+    
+        var popup_7633ce556e85bc6d1f53590ecb46e367 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0653c01282e122caffe893daf72417ab = $(`<div id="html_0653c01282e122caffe893daf72417ab" style="width: 100.0%; height: 100.0%;">('USS Halsey ', 'DDG-97', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '507 ft (154 m) ')</div>`)[0];
+                popup_7633ce556e85bc6d1f53590ecb46e367.setContent(html_0653c01282e122caffe893daf72417ab);
+            
+        
+
+        marker_f711fa440539a1bf4e33d48744be28b8.bindPopup(popup_7633ce556e85bc6d1f53590ecb46e367)
+        ;
+
+        
+    
+    
+            marker_f711fa440539a1bf4e33d48744be28b8.bindTooltip(
+                `<div>
+                     ('USS Halsey ', 'DDG-97', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '507 ft (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b7147f856cb066fdb347ad49e9cacefc = L.marker(
+                [47.9573405, -122.1840647],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_4af6739c8abcba6e96b72bc0708ecf39 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b7147f856cb066fdb347ad49e9cacefc.setIcon(icon_4af6739c8abcba6e96b72bc0708ecf39);
+        
+    
+        var popup_c3bd50df346190c0881d420afe10ffbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16483e7b1fde291df72e6e86c70b03de = $(`<div id="html_16483e7b1fde291df72e6e86c70b03de" style="width: 100.0%; height: 100.0%;">('USS Gridley', 'DDG-101', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '508 ft (154 m) ')</div>`)[0];
+                popup_c3bd50df346190c0881d420afe10ffbe.setContent(html_16483e7b1fde291df72e6e86c70b03de);
+            
+        
+
+        marker_b7147f856cb066fdb347ad49e9cacefc.bindPopup(popup_c3bd50df346190c0881d420afe10ffbe)
+        ;
+
+        
+    
+    
+            marker_b7147f856cb066fdb347ad49e9cacefc.bindTooltip(
+                `<div>
+                     ('USS Gridley', 'DDG-101', 'US', 'Destroyer', 'Arleigh Burke', '>30 knots (56 km/h; 35 mph)\n', '508 ft (154 m) ')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_09b206c0b574ba1ba79fbfa797c62796 = L.marker(
+                [69.0664264, 33.3914271],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_afdae11c80e16053f0df61007adc5adc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_09b206c0b574ba1ba79fbfa797c62796.setIcon(icon_afdae11c80e16053f0df61007adc5adc);
+        
+    
+        var popup_318d490c672fbff50c93eaa57628ff3f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e5998318059514273725af158acb585c = $(`<div id="html_e5998318059514273725af158acb585c" style="width: 100.0%; height: 100.0%;">('Vice-Admiral Kulakov', '626', 'Russia', 'Destroyer', 'Udaloy', '35 knots (65 km/h)', '163 m (535 ft)')</div>`)[0];
+                popup_318d490c672fbff50c93eaa57628ff3f.setContent(html_e5998318059514273725af158acb585c);
+            
+        
+
+        marker_09b206c0b574ba1ba79fbfa797c62796.bindPopup(popup_318d490c672fbff50c93eaa57628ff3f)
+        ;
+
+        
+    
+    
+            marker_09b206c0b574ba1ba79fbfa797c62796.bindTooltip(
+                `<div>
+                     ('Vice-Admiral Kulakov', '626', 'Russia', 'Destroyer', 'Udaloy', '35 knots (65 km/h)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff5d845860b9e24f32be9598ed231859 = L.marker(
+                [43.1665016, 131.8133729],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_ed7ba9950afa1544374abf3661f54bca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ff5d845860b9e24f32be9598ed231859.setIcon(icon_ed7ba9950afa1544374abf3661f54bca);
+        
+    
+        var popup_3d4e5c43a037b0672dceeb328bfeb1e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7e02fb5095e6a0506791fd7247190827 = $(`<div id="html_7e02fb5095e6a0506791fd7247190827" style="width: 100.0%; height: 100.0%;">('Marshal Shaposhnikov', '543', 'Russia', 'Destroyer', 'Udaloy', '36 knots (65 km/h)', '163 m (535 ft)')</div>`)[0];
+                popup_3d4e5c43a037b0672dceeb328bfeb1e6.setContent(html_7e02fb5095e6a0506791fd7247190827);
+            
+        
+
+        marker_ff5d845860b9e24f32be9598ed231859.bindPopup(popup_3d4e5c43a037b0672dceeb328bfeb1e6)
+        ;
+
+        
+    
+    
+            marker_ff5d845860b9e24f32be9598ed231859.bindTooltip(
+                `<div>
+                     ('Marshal Shaposhnikov', '543', 'Russia', 'Destroyer', 'Udaloy', '36 knots (65 km/h)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0187368d6671faea1ed440f0fb7fb7e8 = L.marker(
+                [43.1665016, 131.8133729],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_4191ca087be9f70e557fa3ada215e2ea = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0187368d6671faea1ed440f0fb7fb7e8.setIcon(icon_4191ca087be9f70e557fa3ada215e2ea);
+        
+    
+        var popup_bab64cb358ee06622c8d2203ed5893ce = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_47b5f8a8a2d1eb4c5e165856a822e40e = $(`<div id="html_47b5f8a8a2d1eb4c5e165856a822e40e" style="width: 100.0%; height: 100.0%;">('Admiral Tributs ', '564', 'Russia', 'Destroyer', 'Udaloy', '37 knots (65 km/h)', '163 m (535 ft)')</div>`)[0];
+                popup_bab64cb358ee06622c8d2203ed5893ce.setContent(html_47b5f8a8a2d1eb4c5e165856a822e40e);
+            
+        
+
+        marker_0187368d6671faea1ed440f0fb7fb7e8.bindPopup(popup_bab64cb358ee06622c8d2203ed5893ce)
+        ;
+
+        
+    
+    
+            marker_0187368d6671faea1ed440f0fb7fb7e8.bindTooltip(
+                `<div>
+                     ('Admiral Tributs ', '564', 'Russia', 'Destroyer', 'Udaloy', '37 knots (65 km/h)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_93485edf5ae4bb15d1ab5a0382e8fb6f = L.marker(
+                [69.0664264, 33.3914271],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_0517d8f327f3cac962a70a53464a932a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_93485edf5ae4bb15d1ab5a0382e8fb6f.setIcon(icon_0517d8f327f3cac962a70a53464a932a);
+        
+    
+        var popup_24edfeed8a7ef84de4192fc3efcf25c6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_798d693329fe093de8939daa717f2aad = $(`<div id="html_798d693329fe093de8939daa717f2aad" style="width: 100.0%; height: 100.0%;">('Severomorsk', '619', 'Russia', 'Destroyer', 'Udaloy', '38 knots (65 km/h)', '163 m (535 ft)')</div>`)[0];
+                popup_24edfeed8a7ef84de4192fc3efcf25c6.setContent(html_798d693329fe093de8939daa717f2aad);
+            
+        
+
+        marker_93485edf5ae4bb15d1ab5a0382e8fb6f.bindPopup(popup_24edfeed8a7ef84de4192fc3efcf25c6)
+        ;
+
+        
+    
+    
+            marker_93485edf5ae4bb15d1ab5a0382e8fb6f.bindTooltip(
+                `<div>
+                     ('Severomorsk', '619', 'Russia', 'Destroyer', 'Udaloy', '38 knots (65 km/h)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_edcac3151a603059bc1f813dfc5564ac = L.marker(
+                [43.1665016, 131.8133729],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_98093bcdb90dba52f8c592834c9d9462 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_edcac3151a603059bc1f813dfc5564ac.setIcon(icon_98093bcdb90dba52f8c592834c9d9462);
+        
+    
+        var popup_28b331eef509640822ba99e197398c4d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b00fd1455ece6e4b08e8d6e7a181b9ae = $(`<div id="html_b00fd1455ece6e4b08e8d6e7a181b9ae" style="width: 100.0%; height: 100.0%;">('Admiral Vinogradov', '572', 'Russia', 'Destroyer', 'Udaloy', '39 knots (65 km/h)', '163 m (535 ft)')</div>`)[0];
+                popup_28b331eef509640822ba99e197398c4d.setContent(html_b00fd1455ece6e4b08e8d6e7a181b9ae);
+            
+        
+
+        marker_edcac3151a603059bc1f813dfc5564ac.bindPopup(popup_28b331eef509640822ba99e197398c4d)
+        ;
+
+        
+    
+    
+            marker_edcac3151a603059bc1f813dfc5564ac.bindTooltip(
+                `<div>
+                     ('Admiral Vinogradov', '572', 'Russia', 'Destroyer', 'Udaloy', '39 knots (65 km/h)', '163 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f699526d9897ac7d688bb7e8ad7b4bf7 = L.marker(
+                [69.0664264, 33.3914271],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_0e8aef50c52bc557dfa26eb52d89789f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f699526d9897ac7d688bb7e8ad7b4bf7.setIcon(icon_0e8aef50c52bc557dfa26eb52d89789f);
+        
+    
+        var popup_4753906985d40155d33bb2f4f006ba85 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2bfa60155fd361584155b486381ec38b = $(`<div id="html_2bfa60155fd361584155b486381ec38b" style="width: 100.0%; height: 100.0%;">('Admiral Levchenko', '605', 'Russia', 'Destroyer', 'Udaloy', '40 knots (65 km/h)', '164 m (535 ft)')</div>`)[0];
+                popup_4753906985d40155d33bb2f4f006ba85.setContent(html_2bfa60155fd361584155b486381ec38b);
+            
+        
+
+        marker_f699526d9897ac7d688bb7e8ad7b4bf7.bindPopup(popup_4753906985d40155d33bb2f4f006ba85)
+        ;
+
+        
+    
+    
+            marker_f699526d9897ac7d688bb7e8ad7b4bf7.bindTooltip(
+                `<div>
+                     ('Admiral Levchenko', '605', 'Russia', 'Destroyer', 'Udaloy', '40 knots (65 km/h)', '164 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_cff3cda04d29a50a48c4037b7e2bdb81 = L.marker(
+                [43.1665016, 131.8133729],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_2cbcb97de4d1dd14448f41539dec4be1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_cff3cda04d29a50a48c4037b7e2bdb81.setIcon(icon_2cbcb97de4d1dd14448f41539dec4be1);
+        
+    
+        var popup_320c6ee32b27180a7bf2d0675d00ad44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eabf1f918a33a93967109b45372287a8 = $(`<div id="html_eabf1f918a33a93967109b45372287a8" style="width: 100.0%; height: 100.0%;">('Admiral Panteleyev', '548', 'Russia', 'Destroyer', 'Udaloy', '41 knots (65 km/h)', '165 m (535 ft)')</div>`)[0];
+                popup_320c6ee32b27180a7bf2d0675d00ad44.setContent(html_eabf1f918a33a93967109b45372287a8);
+            
+        
+
+        marker_cff3cda04d29a50a48c4037b7e2bdb81.bindPopup(popup_320c6ee32b27180a7bf2d0675d00ad44)
+        ;
+
+        
+    
+    
+            marker_cff3cda04d29a50a48c4037b7e2bdb81.bindTooltip(
+                `<div>
+                     ('Admiral Panteleyev', '548', 'Russia', 'Destroyer', 'Udaloy', '41 knots (65 km/h)', '165 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_dc383e04cd4f369aefe2a2f65a6f3117 = L.marker(
+                [69.0664264, 33.3914271],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_b8e63320ac80940f268c8fa4e6c10d68 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_dc383e04cd4f369aefe2a2f65a6f3117.setIcon(icon_b8e63320ac80940f268c8fa4e6c10d68);
+        
+    
+        var popup_bf76feece6fb9bc00067f2d5bc4527a8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f433ff87252ab80cf168b4a0508995ba = $(`<div id="html_f433ff87252ab80cf168b4a0508995ba" style="width: 100.0%; height: 100.0%;">('Admiral Chabanenko', '650', 'Russia', 'Destroyer', 'Udaloy', '42 knots (65 km/h)', '165 m (535 ft)')</div>`)[0];
+                popup_bf76feece6fb9bc00067f2d5bc4527a8.setContent(html_f433ff87252ab80cf168b4a0508995ba);
+            
+        
+
+        marker_dc383e04cd4f369aefe2a2f65a6f3117.bindPopup(popup_bf76feece6fb9bc00067f2d5bc4527a8)
+        ;
+
+        
+    
+    
+            marker_dc383e04cd4f369aefe2a2f65a6f3117.bindTooltip(
+                `<div>
+                     ('Admiral Chabanenko', '650', 'Russia', 'Destroyer', 'Udaloy', '42 knots (65 km/h)', '165 m (535 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ff18df83cee76f84336ea4c5f2317a0a = L.marker(
+                [54.6532998, 19.8327258],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_24c41587efae5f29e302a096130c9b02 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ff18df83cee76f84336ea4c5f2317a0a.setIcon(icon_24c41587efae5f29e302a096130c9b02);
+        
+    
+        var popup_cdc571c156dddeacd022ba55e57e923a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2784139892234e30f70d56bfd6875348 = $(`<div id="html_2784139892234e30f70d56bfd6875348" style="width: 100.0%; height: 100.0%;">('Nastoychivyy', '610', 'Russia', 'Destroyer', 'Sovremennyy', '32.7 knots (60.6 km/h; 37.6 mph)', '156 m (511 ft 10 in)')</div>`)[0];
+                popup_cdc571c156dddeacd022ba55e57e923a.setContent(html_2784139892234e30f70d56bfd6875348);
+            
+        
+
+        marker_ff18df83cee76f84336ea4c5f2317a0a.bindPopup(popup_cdc571c156dddeacd022ba55e57e923a)
+        ;
+
+        
+    
+    
+            marker_ff18df83cee76f84336ea4c5f2317a0a.bindTooltip(
+                `<div>
+                     ('Nastoychivyy', '610', 'Russia', 'Destroyer', 'Sovremennyy', '32.7 knots (60.6 km/h; 37.6 mph)', '156 m (511 ft 10 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1243762974a22404a169ca1f3021eddf = L.marker(
+                [69.0664264, 33.3914271],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_5f12183aa9e2ae6db12df4fc0dfbd773 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1243762974a22404a169ca1f3021eddf.setIcon(icon_5f12183aa9e2ae6db12df4fc0dfbd773);
+        
+    
+        var popup_3dea4fbca9ccaabed5c4b8106d302bb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b126a50b9356a5865121b2c45a40bf6 = $(`<div id="html_5b126a50b9356a5865121b2c45a40bf6" style="width: 100.0%; height: 100.0%;">('Admiral Ushakov', '474', 'Russia', 'Destroyer', 'Sovremennyy', '33.7 knots (60.6 km/h; 37.6 mph)', '157 m (511 ft 10 in)')</div>`)[0];
+                popup_3dea4fbca9ccaabed5c4b8106d302bb5.setContent(html_5b126a50b9356a5865121b2c45a40bf6);
+            
+        
+
+        marker_1243762974a22404a169ca1f3021eddf.bindPopup(popup_3dea4fbca9ccaabed5c4b8106d302bb5)
+        ;
+
+        
+    
+    
+            marker_1243762974a22404a169ca1f3021eddf.bindTooltip(
+                `<div>
+                     ('Admiral Ushakov', '474', 'Russia', 'Destroyer', 'Sovremennyy', '33.7 knots (60.6 km/h; 37.6 mph)', '157 m (511 ft 10 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_b786b4782c76535ac7ce5eb2c7659e1a = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_ab5c8d412cc5a17eb611ad55edf2450d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_b786b4782c76535ac7ce5eb2c7659e1a.setIcon(icon_ab5c8d412cc5a17eb611ad55edf2450d);
+        
+    
+        var popup_2da159de9c80a2af1e2d499e2d326a43 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7b00d19dd5e0d98ce03456df34508a33 = $(`<div id="html_7b00d19dd5e0d98ce03456df34508a33" style="width: 100.0%; height: 100.0%;">('HMS Daring', 'D32', 'UK', 'Destroyer', 'Daring', '30 kn (56 km/h; 35 mph)', '152.4 m (500 ft 0 in)')</div>`)[0];
+                popup_2da159de9c80a2af1e2d499e2d326a43.setContent(html_7b00d19dd5e0d98ce03456df34508a33);
+            
+        
+
+        marker_b786b4782c76535ac7ce5eb2c7659e1a.bindPopup(popup_2da159de9c80a2af1e2d499e2d326a43)
+        ;
+
+        
+    
+    
+            marker_b786b4782c76535ac7ce5eb2c7659e1a.bindTooltip(
+                `<div>
+                     ('HMS Daring', 'D32', 'UK', 'Destroyer', 'Daring', '30 kn (56 km/h; 35 mph)', '152.4 m (500 ft 0 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_216a71383d062bb1043b7b1319763aa5 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_083cb03fe4449d482e8ec4921e686b9b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_216a71383d062bb1043b7b1319763aa5.setIcon(icon_083cb03fe4449d482e8ec4921e686b9b);
+        
+    
+        var popup_a09c044bc457afff9a86be3e0932f9e8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fff60f33150f3676865cbf67bff88b1e = $(`<div id="html_fff60f33150f3676865cbf67bff88b1e" style="width: 100.0%; height: 100.0%;">('HMS Dauntless', 'D33', 'UK', 'Destroyer', 'Daring', '31 kn (56 km/h; 35 mph)', '153.4 m (500 ft 0 in)')</div>`)[0];
+                popup_a09c044bc457afff9a86be3e0932f9e8.setContent(html_fff60f33150f3676865cbf67bff88b1e);
+            
+        
+
+        marker_216a71383d062bb1043b7b1319763aa5.bindPopup(popup_a09c044bc457afff9a86be3e0932f9e8)
+        ;
+
+        
+    
+    
+            marker_216a71383d062bb1043b7b1319763aa5.bindTooltip(
+                `<div>
+                     ('HMS Dauntless', 'D33', 'UK', 'Destroyer', 'Daring', '31 kn (56 km/h; 35 mph)', '153.4 m (500 ft 0 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_61f4544d0fb37a401f2a2254a019bc65 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_710f86ce05a30aebba1aea280e10376f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_61f4544d0fb37a401f2a2254a019bc65.setIcon(icon_710f86ce05a30aebba1aea280e10376f);
+        
+    
+        var popup_50f5480fe61d8bfce161ec2b441fc327 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a6e1abec5adee1ecaa84a91dd2667806 = $(`<div id="html_a6e1abec5adee1ecaa84a91dd2667806" style="width: 100.0%; height: 100.0%;">('HMS Diamond', 'D34', 'UK', 'Destroyer', 'Daring', '32 kn (56 km/h; 35 mph)', '154.4 m (500 ft 0 in)')</div>`)[0];
+                popup_50f5480fe61d8bfce161ec2b441fc327.setContent(html_a6e1abec5adee1ecaa84a91dd2667806);
+            
+        
+
+        marker_61f4544d0fb37a401f2a2254a019bc65.bindPopup(popup_50f5480fe61d8bfce161ec2b441fc327)
+        ;
+
+        
+    
+    
+            marker_61f4544d0fb37a401f2a2254a019bc65.bindTooltip(
+                `<div>
+                     ('HMS Diamond', 'D34', 'UK', 'Destroyer', 'Daring', '32 kn (56 km/h; 35 mph)', '154.4 m (500 ft 0 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_75c8a4c67e923e5b8177d60e151b189d = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_f0ffdf44c6b14a9aef3437acbfc6ed90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_75c8a4c67e923e5b8177d60e151b189d.setIcon(icon_f0ffdf44c6b14a9aef3437acbfc6ed90);
+        
+    
+        var popup_7747e862b826a66b9af74957f660b9e7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a052628e84287c38048aa8a3b494a8db = $(`<div id="html_a052628e84287c38048aa8a3b494a8db" style="width: 100.0%; height: 100.0%;">('HMS Dragon', 'D35', 'UK', 'Destroyer', 'Daring', '33 kn (56 km/h; 35 mph)', '155.4 m (500 ft 0 in)')</div>`)[0];
+                popup_7747e862b826a66b9af74957f660b9e7.setContent(html_a052628e84287c38048aa8a3b494a8db);
+            
+        
+
+        marker_75c8a4c67e923e5b8177d60e151b189d.bindPopup(popup_7747e862b826a66b9af74957f660b9e7)
+        ;
+
+        
+    
+    
+            marker_75c8a4c67e923e5b8177d60e151b189d.bindTooltip(
+                `<div>
+                     ('HMS Dragon', 'D35', 'UK', 'Destroyer', 'Daring', '33 kn (56 km/h; 35 mph)', '155.4 m (500 ft 0 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_9af9b6b0b2690ed69c1cc7d0e1bd73c5 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_a800178168c07504996ba2ad8cb9cb0e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_9af9b6b0b2690ed69c1cc7d0e1bd73c5.setIcon(icon_a800178168c07504996ba2ad8cb9cb0e);
+        
+    
+        var popup_80a107785a55c0a466ed0ff1ca1639d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4354b1d652e7517b262492c016e69035 = $(`<div id="html_4354b1d652e7517b262492c016e69035" style="width: 100.0%; height: 100.0%;">('HMS Defender', 'D36', 'UK', 'Destroyer', 'Daring', '34 kn (56 km/h; 35 mph)', '156.4 m (500 ft 0 in)')</div>`)[0];
+                popup_80a107785a55c0a466ed0ff1ca1639d8.setContent(html_4354b1d652e7517b262492c016e69035);
+            
+        
+
+        marker_9af9b6b0b2690ed69c1cc7d0e1bd73c5.bindPopup(popup_80a107785a55c0a466ed0ff1ca1639d8)
+        ;
+
+        
+    
+    
+            marker_9af9b6b0b2690ed69c1cc7d0e1bd73c5.bindTooltip(
+                `<div>
+                     ('HMS Defender', 'D36', 'UK', 'Destroyer', 'Daring', '34 kn (56 km/h; 35 mph)', '156.4 m (500 ft 0 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_0af731507e4577b1c0993e03dc67f216 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_1a0b832420e499da1c50a9229c282186 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_0af731507e4577b1c0993e03dc67f216.setIcon(icon_1a0b832420e499da1c50a9229c282186);
+        
+    
+        var popup_2cb12d187236bcc335c549359655870c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0edc51788cf501c062f07059c1a8a851 = $(`<div id="html_0edc51788cf501c062f07059c1a8a851" style="width: 100.0%; height: 100.0%;">('HMS Duncan', 'D37', 'UK', 'Destroyer', 'Daring', '35 kn (56 km/h; 35 mph)', '157.4 m (500 ft 0 in)')</div>`)[0];
+                popup_2cb12d187236bcc335c549359655870c.setContent(html_0edc51788cf501c062f07059c1a8a851);
+            
+        
+
+        marker_0af731507e4577b1c0993e03dc67f216.bindPopup(popup_2cb12d187236bcc335c549359655870c)
+        ;
+
+        
+    
+    
+            marker_0af731507e4577b1c0993e03dc67f216.bindTooltip(
+                `<div>
+                     ('HMS Duncan', 'D37', 'UK', 'Destroyer', 'Daring', '35 kn (56 km/h; 35 mph)', '157.4 m (500 ft 0 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_14e2c5750d33fb11ea8efc2e6279723f = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_b862f7edf0cc435147b9c73b163574ee = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_14e2c5750d33fb11ea8efc2e6279723f.setIcon(icon_b862f7edf0cc435147b9c73b163574ee);
+        
+    
+        var popup_3bec6045abcf34e57c14f29ef926b18f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85ba789eca0d711738b8d51b9919ef32 = $(`<div id="html_85ba789eca0d711738b8d51b9919ef32" style="width: 100.0%; height: 100.0%;">('HMS Argyll', 'F231', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '133 m (436 ft 4 in)')</div>`)[0];
+                popup_3bec6045abcf34e57c14f29ef926b18f.setContent(html_85ba789eca0d711738b8d51b9919ef32);
+            
+        
+
+        marker_14e2c5750d33fb11ea8efc2e6279723f.bindPopup(popup_3bec6045abcf34e57c14f29ef926b18f)
+        ;
+
+        
+    
+    
+            marker_14e2c5750d33fb11ea8efc2e6279723f.bindTooltip(
+                `<div>
+                     ('HMS Argyll', 'F231', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '133 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_6a260ce63303021e4cd1a6c3b746668c = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_b9e516230efd9fe559c4cbbe4da9f496 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_6a260ce63303021e4cd1a6c3b746668c.setIcon(icon_b9e516230efd9fe559c4cbbe4da9f496);
+        
+    
+        var popup_2042cf7a6f1f4169c20f6d13150cb8e6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e40d0c3e5ca098c11155ff2e985a1cb0 = $(`<div id="html_e40d0c3e5ca098c11155ff2e985a1cb0" style="width: 100.0%; height: 100.0%;">('HMS Lancaster', 'F229', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '134 m (436 ft 4 in)')</div>`)[0];
+                popup_2042cf7a6f1f4169c20f6d13150cb8e6.setContent(html_e40d0c3e5ca098c11155ff2e985a1cb0);
+            
+        
+
+        marker_6a260ce63303021e4cd1a6c3b746668c.bindPopup(popup_2042cf7a6f1f4169c20f6d13150cb8e6)
+        ;
+
+        
+    
+    
+            marker_6a260ce63303021e4cd1a6c3b746668c.bindTooltip(
+                `<div>
+                     ('HMS Lancaster', 'F229', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '134 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7289496b2bf8c944a260e505a42381ff = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_929a793981df39f3c283efeecc3a73d3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7289496b2bf8c944a260e505a42381ff.setIcon(icon_929a793981df39f3c283efeecc3a73d3);
+        
+    
+        var popup_66b4d6c28b45436142e840a686e0d508 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f62ae6d5e50e300e21e4e206af9d5002 = $(`<div id="html_f62ae6d5e50e300e21e4e206af9d5002" style="width: 100.0%; height: 100.0%;">('HMS Iron Duke', 'F234', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '135 m (436 ft 4 in)')</div>`)[0];
+                popup_66b4d6c28b45436142e840a686e0d508.setContent(html_f62ae6d5e50e300e21e4e206af9d5002);
+            
+        
+
+        marker_7289496b2bf8c944a260e505a42381ff.bindPopup(popup_66b4d6c28b45436142e840a686e0d508)
+        ;
+
+        
+    
+    
+            marker_7289496b2bf8c944a260e505a42381ff.bindTooltip(
+                `<div>
+                     ('HMS Iron Duke', 'F234', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '135 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_1b2fceaece0509d54ba9be2b38f28c49 = L.marker(
+                [50.904355, -1.323344],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_96de3b67d5b7bf40a77df66b44ac942b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_1b2fceaece0509d54ba9be2b38f28c49.setIcon(icon_96de3b67d5b7bf40a77df66b44ac942b);
+        
+    
+        var popup_c6ce350879d3af9462855344c18918db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87b4e0147f74824db19b3906f9acf460 = $(`<div id="html_87b4e0147f74824db19b3906f9acf460" style="width: 100.0%; height: 100.0%;">('HMS montrose', 'F236', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '136 m (436 ft 4 in)')</div>`)[0];
+                popup_c6ce350879d3af9462855344c18918db.setContent(html_87b4e0147f74824db19b3906f9acf460);
+            
+        
+
+        marker_1b2fceaece0509d54ba9be2b38f28c49.bindPopup(popup_c6ce350879d3af9462855344c18918db)
+        ;
+
+        
+    
+    
+            marker_1b2fceaece0509d54ba9be2b38f28c49.bindTooltip(
+                `<div>
+                     ('HMS montrose', 'F236', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '136 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c31d084cb55ba875b3a9b0f14448d16b = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_0cce6874bbfdfdd5dd53e06131dc3d66 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c31d084cb55ba875b3a9b0f14448d16b.setIcon(icon_0cce6874bbfdfdd5dd53e06131dc3d66);
+        
+    
+        var popup_3420092d0446d28022840b55d995aa59 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbdbab6768819758adfc833ff48caceb = $(`<div id="html_cbdbab6768819758adfc833ff48caceb" style="width: 100.0%; height: 100.0%;">('HMS Westminster', 'F237', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '137 m (436 ft 4 in)')</div>`)[0];
+                popup_3420092d0446d28022840b55d995aa59.setContent(html_cbdbab6768819758adfc833ff48caceb);
+            
+        
+
+        marker_c31d084cb55ba875b3a9b0f14448d16b.bindPopup(popup_3420092d0446d28022840b55d995aa59)
+        ;
+
+        
+    
+    
+            marker_c31d084cb55ba875b3a9b0f14448d16b.bindTooltip(
+                `<div>
+                     ('HMS Westminster', 'F237', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '137 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ebdb4f6610d4340895d974b17aa073d = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_65f7b195be5554985634162b09666a9d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5ebdb4f6610d4340895d974b17aa073d.setIcon(icon_65f7b195be5554985634162b09666a9d);
+        
+    
+        var popup_c24ce6ac2b3f54fe1f1a2ffc868ba1af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd861f9873e61c27e5735998548ffbb8 = $(`<div id="html_dd861f9873e61c27e5735998548ffbb8" style="width: 100.0%; height: 100.0%;">('HMS Northumberland', 'F238', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '138 m (436 ft 4 in)')</div>`)[0];
+                popup_c24ce6ac2b3f54fe1f1a2ffc868ba1af.setContent(html_dd861f9873e61c27e5735998548ffbb8);
+            
+        
+
+        marker_5ebdb4f6610d4340895d974b17aa073d.bindPopup(popup_c24ce6ac2b3f54fe1f1a2ffc868ba1af)
+        ;
+
+        
+    
+    
+            marker_5ebdb4f6610d4340895d974b17aa073d.bindTooltip(
+                `<div>
+                     ('HMS Northumberland', 'F238', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '138 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_5ebb04d3ab47a11e1d4841777515b2b1 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_786ac9c39c1899ab66d10ab4058a2fd3 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_5ebb04d3ab47a11e1d4841777515b2b1.setIcon(icon_786ac9c39c1899ab66d10ab4058a2fd3);
+        
+    
+        var popup_5013a9c7bf3c94f48c69c4c3079271b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_18a6b0cb74bd978d8d69c82a63814e5b = $(`<div id="html_18a6b0cb74bd978d8d69c82a63814e5b" style="width: 100.0%; height: 100.0%;">('HMS Richmond', 'F239', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '139 m (436 ft 4 in)')</div>`)[0];
+                popup_5013a9c7bf3c94f48c69c4c3079271b2.setContent(html_18a6b0cb74bd978d8d69c82a63814e5b);
+            
+        
+
+        marker_5ebb04d3ab47a11e1d4841777515b2b1.bindPopup(popup_5013a9c7bf3c94f48c69c4c3079271b2)
+        ;
+
+        
+    
+    
+            marker_5ebb04d3ab47a11e1d4841777515b2b1.bindTooltip(
+                `<div>
+                     ('HMS Richmond', 'F239', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '139 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_37530bc4ec93cc6eded640bd0ac3ec3a = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_12c39359274f65fc06d770580538bed1 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_37530bc4ec93cc6eded640bd0ac3ec3a.setIcon(icon_12c39359274f65fc06d770580538bed1);
+        
+    
+        var popup_2d08c2ac05849cb257a3dcd138939b3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6a5d00d45a62d96d8a83d3ace5646a5c = $(`<div id="html_6a5d00d45a62d96d8a83d3ace5646a5c" style="width: 100.0%; height: 100.0%;">('HMS Somerset', 'F82', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '140 m (436 ft 4 in)')</div>`)[0];
+                popup_2d08c2ac05849cb257a3dcd138939b3a.setContent(html_6a5d00d45a62d96d8a83d3ace5646a5c);
+            
+        
+
+        marker_37530bc4ec93cc6eded640bd0ac3ec3a.bindPopup(popup_2d08c2ac05849cb257a3dcd138939b3a)
+        ;
+
+        
+    
+    
+            marker_37530bc4ec93cc6eded640bd0ac3ec3a.bindTooltip(
+                `<div>
+                     ('HMS Somerset', 'F82', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '140 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_2c0aaae2b8bc40de623dc88858c999a3 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_fdac1d06953dc96a49b8a87762aad96b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_2c0aaae2b8bc40de623dc88858c999a3.setIcon(icon_fdac1d06953dc96a49b8a87762aad96b);
+        
+    
+        var popup_ca6a4c389556108eeb62d6ef3a8fe428 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4fc053cbf2734d56dfe12eb62e1b0aa = $(`<div id="html_c4fc053cbf2734d56dfe12eb62e1b0aa" style="width: 100.0%; height: 100.0%;">('HMS Sutherland', 'F81', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '141 m (436 ft 4 in)')</div>`)[0];
+                popup_ca6a4c389556108eeb62d6ef3a8fe428.setContent(html_c4fc053cbf2734d56dfe12eb62e1b0aa);
+            
+        
+
+        marker_2c0aaae2b8bc40de623dc88858c999a3.bindPopup(popup_ca6a4c389556108eeb62d6ef3a8fe428)
+        ;
+
+        
+    
+    
+            marker_2c0aaae2b8bc40de623dc88858c999a3.bindTooltip(
+                `<div>
+                     ('HMS Sutherland', 'F81', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '141 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_79a030a8f3939fd5c47d9b5116c75461 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_c07098bb155fe1ee1c62fffc30e4613e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_79a030a8f3939fd5c47d9b5116c75461.setIcon(icon_c07098bb155fe1ee1c62fffc30e4613e);
+        
+    
+        var popup_6aa0786497737940168ed10aaa7bffe2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cbfb6f1cc6bb05556d5d05e6e21db5ed = $(`<div id="html_cbfb6f1cc6bb05556d5d05e6e21db5ed" style="width: 100.0%; height: 100.0%;">('HMS Kent', 'F78', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '142 m (436 ft 4 in)')</div>`)[0];
+                popup_6aa0786497737940168ed10aaa7bffe2.setContent(html_cbfb6f1cc6bb05556d5d05e6e21db5ed);
+            
+        
+
+        marker_79a030a8f3939fd5c47d9b5116c75461.bindPopup(popup_6aa0786497737940168ed10aaa7bffe2)
+        ;
+
+        
+    
+    
+            marker_79a030a8f3939fd5c47d9b5116c75461.bindTooltip(
+                `<div>
+                     ('HMS Kent', 'F78', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '142 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e7fae0fcf1672a8b65566f96c5c51e71 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_d1934c3b5424aa5c908770bd809d3a93 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e7fae0fcf1672a8b65566f96c5c51e71.setIcon(icon_d1934c3b5424aa5c908770bd809d3a93);
+        
+    
+        var popup_56454b314fbf84ad8ee976da56fc4be0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d02096a4d1b33bbcf076473c1862cf22 = $(`<div id="html_d02096a4d1b33bbcf076473c1862cf22" style="width: 100.0%; height: 100.0%;">('HMS Portland', 'F79', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '143 m (436 ft 4 in)')</div>`)[0];
+                popup_56454b314fbf84ad8ee976da56fc4be0.setContent(html_d02096a4d1b33bbcf076473c1862cf22);
+            
+        
+
+        marker_e7fae0fcf1672a8b65566f96c5c51e71.bindPopup(popup_56454b314fbf84ad8ee976da56fc4be0)
+        ;
+
+        
+    
+    
+            marker_e7fae0fcf1672a8b65566f96c5c51e71.bindTooltip(
+                `<div>
+                     ('HMS Portland', 'F79', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '143 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_02cab5ed755b1feda4235b75c2eebc32 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_fb1ffb220609cb593dc5e041c7c3ec35 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_02cab5ed755b1feda4235b75c2eebc32.setIcon(icon_fb1ffb220609cb593dc5e041c7c3ec35);
+        
+    
+        var popup_4d455d7939f85f521c9a5a73b6e4511e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b759cf74dbad95024fea95c86f23c270 = $(`<div id="html_b759cf74dbad95024fea95c86f23c270" style="width: 100.0%; height: 100.0%;">('HMS St Albans', 'F83', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '144 m (436 ft 4 in)')</div>`)[0];
+                popup_4d455d7939f85f521c9a5a73b6e4511e.setContent(html_b759cf74dbad95024fea95c86f23c270);
+            
+        
+
+        marker_02cab5ed755b1feda4235b75c2eebc32.bindPopup(popup_4d455d7939f85f521c9a5a73b6e4511e)
+        ;
+
+        
+    
+    
+            marker_02cab5ed755b1feda4235b75c2eebc32.bindTooltip(
+                `<div>
+                     ('HMS St Albans', 'F83', 'UK', 'Frigate', 'Duke', '28 knots (52 km/h; 32 mph)', '144 m (436 ft 4 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_679f8fb17a03b6296f6b8874aebcff42 = L.marker(
+                [35.2601108, 139.5915011],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_c3271f1db390592ed0424484042b422c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_679f8fb17a03b6296f6b8874aebcff42.setIcon(icon_c3271f1db390592ed0424484042b422c);
+        
+    
+        var popup_066cdde3cd228782f9983cdf85aebe38 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78bf6916c01ecdb3203193481713eff2 = $(`<div id="html_78bf6916c01ecdb3203193481713eff2" style="width: 100.0%; height: 100.0%;">('JS Murasame', 'DD-101', 'Japan', 'Destroyer', 'Murasame', '30 knots (35 mph; 56 km/h)', '151 m (495 ft)')</div>`)[0];
+                popup_066cdde3cd228782f9983cdf85aebe38.setContent(html_78bf6916c01ecdb3203193481713eff2);
+            
+        
+
+        marker_679f8fb17a03b6296f6b8874aebcff42.bindPopup(popup_066cdde3cd228782f9983cdf85aebe38)
+        ;
+
+        
+    
+    
+            marker_679f8fb17a03b6296f6b8874aebcff42.bindTooltip(
+                `<div>
+                     ('JS Murasame', 'DD-101', 'Japan', 'Destroyer', 'Murasame', '30 knots (35 mph; 56 km/h)', '151 m (495 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f167e001be6f3a927051a95ae881e3f8 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_9ec10b722bb68ba9ef3973c8094dc0fd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_f167e001be6f3a927051a95ae881e3f8.setIcon(icon_9ec10b722bb68ba9ef3973c8094dc0fd);
+        
+    
+        var popup_9ed0a7fafd665af24fa3594fb52d981c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3d9cf14257483bd42267b2402564c789 = $(`<div id="html_3d9cf14257483bd42267b2402564c789" style="width: 100.0%; height: 100.0%;">('JS Harusame', 'DD-102', 'Japan', 'Destroyer', 'Murasame', '31 knots (35 mph; 56 km/h)', '152 m (495 ft)')</div>`)[0];
+                popup_9ed0a7fafd665af24fa3594fb52d981c.setContent(html_3d9cf14257483bd42267b2402564c789);
+            
+        
+
+        marker_f167e001be6f3a927051a95ae881e3f8.bindPopup(popup_9ed0a7fafd665af24fa3594fb52d981c)
+        ;
+
+        
+    
+    
+            marker_f167e001be6f3a927051a95ae881e3f8.bindTooltip(
+                `<div>
+                     ('JS Harusame', 'DD-102', 'Japan', 'Destroyer', 'Murasame', '31 knots (35 mph; 56 km/h)', '152 m (495 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_c779b6a54433fb96ffac0604b8cb6cc4 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_d1893811bbc333f55d3c6c54b1063fca = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_c779b6a54433fb96ffac0604b8cb6cc4.setIcon(icon_d1893811bbc333f55d3c6c54b1063fca);
+        
+    
+        var popup_596ec8417f760771197fe242bd4d52bc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_633ac76e90f9427c89f48597844295f9 = $(`<div id="html_633ac76e90f9427c89f48597844295f9" style="width: 100.0%; height: 100.0%;">('JS Yudachi', 'DD-103', 'Japan', 'Destroyer', 'Murasame', '32 knots (35 mph; 56 km/h)', '153 m (495 ft)')</div>`)[0];
+                popup_596ec8417f760771197fe242bd4d52bc.setContent(html_633ac76e90f9427c89f48597844295f9);
+            
+        
+
+        marker_c779b6a54433fb96ffac0604b8cb6cc4.bindPopup(popup_596ec8417f760771197fe242bd4d52bc)
+        ;
+
+        
+    
+    
+            marker_c779b6a54433fb96ffac0604b8cb6cc4.bindTooltip(
+                `<div>
+                     ('JS Yudachi', 'DD-103', 'Japan', 'Destroyer', 'Murasame', '32 knots (35 mph; 56 km/h)', '153 m (495 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_3498a1b4129ff89d9e778d61e15b139b = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_da8becbe970c56b3a32f96a47320216b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_3498a1b4129ff89d9e778d61e15b139b.setIcon(icon_da8becbe970c56b3a32f96a47320216b);
+        
+    
+        var popup_b17dfa30b7d245ce9c6beafd3fdb289e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6296c2343ed39a9514c0757dfcd1484e = $(`<div id="html_6296c2343ed39a9514c0757dfcd1484e" style="width: 100.0%; height: 100.0%;">('JS Kirisame', 'DD-104', 'Japan', 'Destroyer', 'Murasame', '33 knots (35 mph; 56 km/h)', '154 m (495 ft)')</div>`)[0];
+                popup_b17dfa30b7d245ce9c6beafd3fdb289e.setContent(html_6296c2343ed39a9514c0757dfcd1484e);
+            
+        
+
+        marker_3498a1b4129ff89d9e778d61e15b139b.bindPopup(popup_b17dfa30b7d245ce9c6beafd3fdb289e)
+        ;
+
+        
+    
+    
+            marker_3498a1b4129ff89d9e778d61e15b139b.bindTooltip(
+                `<div>
+                     ('JS Kirisame', 'DD-104', 'Japan', 'Destroyer', 'Murasame', '33 knots (35 mph; 56 km/h)', '154 m (495 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_fbc7dfa9c785be1130bb022ef4117ce4 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_fe78ff545e5b996793cb1e0530bbddfc = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_fbc7dfa9c785be1130bb022ef4117ce4.setIcon(icon_fe78ff545e5b996793cb1e0530bbddfc);
+        
+    
+        var popup_84d047f85ab6fc3d6bc16056ba2d213d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6af2c47b24b26439d5e1b43511f298e0 = $(`<div id="html_6af2c47b24b26439d5e1b43511f298e0" style="width: 100.0%; height: 100.0%;">('JS Inazuma', 'DD-105', 'Japan', 'Destroyer', 'Murasame', '34 knots (35 mph; 56 km/h)', '155 m (495 ft)')</div>`)[0];
+                popup_84d047f85ab6fc3d6bc16056ba2d213d.setContent(html_6af2c47b24b26439d5e1b43511f298e0);
+            
+        
+
+        marker_fbc7dfa9c785be1130bb022ef4117ce4.bindPopup(popup_84d047f85ab6fc3d6bc16056ba2d213d)
+        ;
+
+        
+    
+    
+            marker_fbc7dfa9c785be1130bb022ef4117ce4.bindTooltip(
+                `<div>
+                     ('JS Inazuma', 'DD-105', 'Japan', 'Destroyer', 'Murasame', '34 knots (35 mph; 56 km/h)', '155 m (495 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_7b77297b42d9274d9f513680b78cd8ab = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_b6c3a1d18bf4a990967ad3008328d187 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_7b77297b42d9274d9f513680b78cd8ab.setIcon(icon_b6c3a1d18bf4a990967ad3008328d187);
+        
+    
+        var popup_f954138ba04a5d7382b4da1a94d744b7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c27ca21bbeb486026f6dc4b799dfbd06 = $(`<div id="html_c27ca21bbeb486026f6dc4b799dfbd06" style="width: 100.0%; height: 100.0%;">('JS Samidare', 'DD-106', 'Japan', 'Destroyer', 'Murasame', '35 knots (35 mph; 56 km/h)', '156 m (495 ft)')</div>`)[0];
+                popup_f954138ba04a5d7382b4da1a94d744b7.setContent(html_c27ca21bbeb486026f6dc4b799dfbd06);
+            
+        
+
+        marker_7b77297b42d9274d9f513680b78cd8ab.bindPopup(popup_f954138ba04a5d7382b4da1a94d744b7)
+        ;
+
+        
+    
+    
+            marker_7b77297b42d9274d9f513680b78cd8ab.bindTooltip(
+                `<div>
+                     ('JS Samidare', 'DD-106', 'Japan', 'Destroyer', 'Murasame', '35 knots (35 mph; 56 km/h)', '156 m (495 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_be7b2d3df2e339db6ed31a02a77c88a8 = L.marker(
+                [35.2601108, 139.5915011],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_feae41d918f405677792c0bb5b51c2cb = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_be7b2d3df2e339db6ed31a02a77c88a8.setIcon(icon_feae41d918f405677792c0bb5b51c2cb);
+        
+    
+        var popup_10889396b86b6df0dfc490d254718d66 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a043b822168c68eb6bd2a3314944d0be = $(`<div id="html_a043b822168c68eb6bd2a3314944d0be" style="width: 100.0%; height: 100.0%;">('JS Ikazuchi', 'DD-107', 'Japan', 'Destroyer', 'Murasame', '36 knots (35 mph; 56 km/h)', '157 m (495 ft)')</div>`)[0];
+                popup_10889396b86b6df0dfc490d254718d66.setContent(html_a043b822168c68eb6bd2a3314944d0be);
+            
+        
+
+        marker_be7b2d3df2e339db6ed31a02a77c88a8.bindPopup(popup_10889396b86b6df0dfc490d254718d66)
+        ;
+
+        
+    
+    
+            marker_be7b2d3df2e339db6ed31a02a77c88a8.bindTooltip(
+                `<div>
+                     ('JS Ikazuchi', 'DD-107', 'Japan', 'Destroyer', 'Murasame', '36 knots (35 mph; 56 km/h)', '157 m (495 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bf1bd9b12f6a1b4907b69c94e787c661 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_2ebc6fc76a70f0dcc8b6ae2eb1aba827 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_bf1bd9b12f6a1b4907b69c94e787c661.setIcon(icon_2ebc6fc76a70f0dcc8b6ae2eb1aba827);
+        
+    
+        var popup_c90eca3779b64c30d8d3c5214edccbbc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6008b9ad3b15860c01d4c473e000c85a = $(`<div id="html_6008b9ad3b15860c01d4c473e000c85a" style="width: 100.0%; height: 100.0%;">('JS Akebono', 'DD-108', 'Japan', 'Destroyer', 'Murasame', '37 knots (35 mph; 56 km/h)', '158 m (495 ft)')</div>`)[0];
+                popup_c90eca3779b64c30d8d3c5214edccbbc.setContent(html_6008b9ad3b15860c01d4c473e000c85a);
+            
+        
+
+        marker_bf1bd9b12f6a1b4907b69c94e787c661.bindPopup(popup_c90eca3779b64c30d8d3c5214edccbbc)
+        ;
+
+        
+    
+    
+            marker_bf1bd9b12f6a1b4907b69c94e787c661.bindTooltip(
+                `<div>
+                     ('JS Akebono', 'DD-108', 'Japan', 'Destroyer', 'Murasame', '37 knots (35 mph; 56 km/h)', '158 m (495 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_11611b2a952ff4e4af5736c159a29315 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_78b2bd0fca6515f777411c876334d3e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_11611b2a952ff4e4af5736c159a29315.setIcon(icon_78b2bd0fca6515f777411c876334d3e4);
+        
+    
+        var popup_286661489c62b5dd30b3aa5bd9e46483 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae1dece067bb962c020e8769e7eedfbc = $(`<div id="html_ae1dece067bb962c020e8769e7eedfbc" style="width: 100.0%; height: 100.0%;">('JS Ariake', 'DD-109', 'Japan', 'Destroyer', 'Murasame', '38 knots (35 mph; 56 km/h)', '159 m (495 ft)')</div>`)[0];
+                popup_286661489c62b5dd30b3aa5bd9e46483.setContent(html_ae1dece067bb962c020e8769e7eedfbc);
+            
+        
+
+        marker_11611b2a952ff4e4af5736c159a29315.bindPopup(popup_286661489c62b5dd30b3aa5bd9e46483)
+        ;
+
+        
+    
+    
+            marker_11611b2a952ff4e4af5736c159a29315.bindTooltip(
+                `<div>
+                     ('JS Ariake', 'DD-109', 'Japan', 'Destroyer', 'Murasame', '38 knots (35 mph; 56 km/h)', '159 m (495 ft)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_ee31d54b4963606967937cfe7d16b82b = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_886ca3f6eb826e51e50de62a01f4dec5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_ee31d54b4963606967937cfe7d16b82b.setIcon(icon_886ca3f6eb826e51e50de62a01f4dec5);
+        
+    
+        var popup_a598dc2fc8d27633c1b3fd15b516f1ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adc69b337d4adde7f89ecb33dad5757c = $(`<div id="html_adc69b337d4adde7f89ecb33dad5757c" style="width: 100.0%; height: 100.0%;">('JS Asagiri', 'DD-151', 'Japan', 'Destroyer', 'Asagiri', '30 knots (56 km/h; 35 mph)', '137 m (449 ft 6 in)')</div>`)[0];
+                popup_a598dc2fc8d27633c1b3fd15b516f1ed.setContent(html_adc69b337d4adde7f89ecb33dad5757c);
+            
+        
+
+        marker_ee31d54b4963606967937cfe7d16b82b.bindPopup(popup_a598dc2fc8d27633c1b3fd15b516f1ed)
+        ;
+
+        
+    
+    
+            marker_ee31d54b4963606967937cfe7d16b82b.bindTooltip(
+                `<div>
+                     ('JS Asagiri', 'DD-151', 'Japan', 'Destroyer', 'Asagiri', '30 knots (56 km/h; 35 mph)', '137 m (449 ft 6 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_33698caacb05cc4757e2058bb64a65ca = L.marker(
+                [35.2601108, 139.5915011],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_734064a721d3e0c59aadb989aedd0cb7 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_33698caacb05cc4757e2058bb64a65ca.setIcon(icon_734064a721d3e0c59aadb989aedd0cb7);
+        
+    
+        var popup_bb7ed2a43427e376d76b995a8c0d3e7b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c18694ab596c5999be577fa2cadc4a2 = $(`<div id="html_8c18694ab596c5999be577fa2cadc4a2" style="width: 100.0%; height: 100.0%;">('JS Yamagiri', 'DD-152', 'Japan', 'Destroyer', 'Asagiri', '31 knots (56 km/h; 35 mph)', '138 m (449 ft 6 in)')</div>`)[0];
+                popup_bb7ed2a43427e376d76b995a8c0d3e7b.setContent(html_8c18694ab596c5999be577fa2cadc4a2);
+            
+        
+
+        marker_33698caacb05cc4757e2058bb64a65ca.bindPopup(popup_bb7ed2a43427e376d76b995a8c0d3e7b)
+        ;
+
+        
+    
+    
+            marker_33698caacb05cc4757e2058bb64a65ca.bindTooltip(
+                `<div>
+                     ('JS Yamagiri', 'DD-152', 'Japan', 'Destroyer', 'Asagiri', '31 knots (56 km/h; 35 mph)', '138 m (449 ft 6 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_334d17ae3240452ad5bc3636a278c009 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_ec342b4a67b18afd3a564a6dfd682a90 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_334d17ae3240452ad5bc3636a278c009.setIcon(icon_ec342b4a67b18afd3a564a6dfd682a90);
+        
+    
+        var popup_7e6acb09e205d5a40dac39572dee0e03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a575ceee90eb6134084ced861927445d = $(`<div id="html_a575ceee90eb6134084ced861927445d" style="width: 100.0%; height: 100.0%;">('JS Yugiri', 'DD-153', 'Japan', 'Destroyer', 'Asagiri', '32 knots (56 km/h; 35 mph)', '139 m (449 ft 6 in)')</div>`)[0];
+                popup_7e6acb09e205d5a40dac39572dee0e03.setContent(html_a575ceee90eb6134084ced861927445d);
+            
+        
+
+        marker_334d17ae3240452ad5bc3636a278c009.bindPopup(popup_7e6acb09e205d5a40dac39572dee0e03)
+        ;
+
+        
+    
+    
+            marker_334d17ae3240452ad5bc3636a278c009.bindTooltip(
+                `<div>
+                     ('JS Yugiri', 'DD-153', 'Japan', 'Destroyer', 'Asagiri', '32 knots (56 km/h; 35 mph)', '139 m (449 ft 6 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_e1c87aa94580a92809bf89d90c79b703 = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_5d0c08f4bbf2cf91cb6c20d121a16852 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_e1c87aa94580a92809bf89d90c79b703.setIcon(icon_5d0c08f4bbf2cf91cb6c20d121a16852);
+        
+    
+        var popup_6e64ee2c5ce79449c67c0d044298d525 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3be1fc8002b04c48aeb14f4d4290d37b = $(`<div id="html_3be1fc8002b04c48aeb14f4d4290d37b" style="width: 100.0%; height: 100.0%;">('JS Amagiri', 'DD-154', 'Japan', 'Destroyer', 'Asagiri', '33 knots (56 km/h; 35 mph)', '140 m (449 ft 6 in)')</div>`)[0];
+                popup_6e64ee2c5ce79449c67c0d044298d525.setContent(html_3be1fc8002b04c48aeb14f4d4290d37b);
+            
+        
+
+        marker_e1c87aa94580a92809bf89d90c79b703.bindPopup(popup_6e64ee2c5ce79449c67c0d044298d525)
+        ;
+
+        
+    
+    
+            marker_e1c87aa94580a92809bf89d90c79b703.bindTooltip(
+                `<div>
+                     ('JS Amagiri', 'DD-154', 'Japan', 'Destroyer', 'Asagiri', '33 knots (56 km/h; 35 mph)', '140 m (449 ft 6 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_d2602cb31205b7324009a1d1823bc9ac = L.marker(
+                [50.8047148, -1.1667701],
+                {}
+            ).addTo(map_6eb1826a1d5ff6fca91aa0b8059431dd);
+        
+    
+            var icon_9ca94412c15a58238aa694c5e87926a2 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ship", "iconColor": "white", "markerColor": "blue", "prefix": "fa"}
+            );
+            marker_d2602cb31205b7324009a1d1823bc9ac.setIcon(icon_9ca94412c15a58238aa694c5e87926a2);
+        
+    
+        var popup_772305021efcfa11695457c7a3a53c82 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_46b947494d5a5f853aa68817399c362e = $(`<div id="html_46b947494d5a5f853aa68817399c362e" style="width: 100.0%; height: 100.0%;">('JS Hamagiri', 'DD-155', 'Japan', 'Destroyer', 'Asagiri', '34 knots (56 km/h; 35 mph)', '141 m (449 ft 6 in)')</div>`)[0];
+                popup_772305021efcfa11695457c7a3a53c82.setContent(html_46b947494d5a5f853aa68817399c362e);
+            
+        
+
+        marker_d2602cb31205b7324009a1d1823bc9ac.bindPopup(popup_772305021efcfa11695457c7a3a53c82)
+        ;
+
+        
+    
+    
+            marker_d2602cb31205b7324009a1d1823bc9ac.bindTooltip(
+                `<div>
+                     ('JS Hamagiri', 'DD-155', 'Japan', 'Destroyer', 'Asagiri', '34 knots (56 km/h; 35 mph)', '141 m (449 ft 6 in)')
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
